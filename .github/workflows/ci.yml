@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    name: Generate, build and test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Regenerate synthetic data and confirm it matches the committed files
+        run: |
+          python scripts/generate_synthetic_data.py --out /tmp/synthetic
+          diff -r /tmp/synthetic data/raw/synthetic
+
+      - name: dbt build (models and data tests)
+        working-directory: dbt
+        run: dbt build --profiles-dir .
+
+      - name: Render charts
+        run: python scripts/make_charts.py --db dbt/wvphn.duckdb --out /tmp/charts

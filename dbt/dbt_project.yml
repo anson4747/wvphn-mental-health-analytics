@@ -1,0 +1,31 @@
+name: wvphn_analytics
+version: "1.0.0"
+config-version: 2
+profile: wvphn_analytics
+
+model-paths: ["models"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+vars:
+  extract_date: "2026-06-30"
+  stale_open_days: 180
+  # KPI thresholds. Out-3 70% follows the PMHC outcome collection benchmark used in the
+  # brief; the other two are illustrative targets, kept here so they can be changed in one place.
+  target_outcome_collection_rate: 0.70
+  target_7day_followup_rate: 0.80
+  target_median_wait_days: 14
+
+models:
+  wvphn_analytics:
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: view
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts

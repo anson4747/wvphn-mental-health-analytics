@@ -1,0 +1,89 @@
+version: 2
+
+models:
+  - name: dim_provider
+    description: Commissioned providers with their subregion and region. SYNTHETIC.
+    columns:
+      - name: provider_code
+        tests: [unique, not_null]
+
+  - name: dim_subregion
+    description: WVPHN subregions with real 2023 population and the SA3s each one covers.
+    columns:
+      - name: subregion
+        tests: [unique, not_null]
+      - name: sa3_count
+        tests: [not_null]
+
+  - name: fct_episode
+    description: >
+      One row per episode of care with access, lifecycle, outcome and activity flags.
+      All KPI marts aggregate this table. SYNTHETIC.
+    columns:
+      - name: episode_id
+        tests: [unique, not_null]
+      - name: provider_code
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_provider')
+                field: provider_code
+      - name: days_to_first_contact
+        description: Days from referral to first service contact. Null if no contact yet.
+      - name: is_followed_up_within_7_days
+        description: Suicide risk referral with a first contact within 7 days of referral.
+      - name: is_completed
+        description: Episode ended as Treatment concluded, Client disengaged or Referred on.
+      - name: is_stale_open
+        description: Status Open and first contact more than `stale_open_days` before the extract date.
+      - name: has_paired_measures
+        description: Outcome measure collected at both episode start and episode end (the Out-3 numerator).
+      - name: score_change
+        description: End score minus start score. Negative means symptoms reduced.
+
+  - name: kpi_provider_quarterly
+    description: Provider by quarter KPIs. Access KPIs by referral quarter, outcome collection by end quarter.
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [provider_code, quarter]
+
+  - name: kpi_provider_scorecard
+    description: Provider scorecard for January to June 2026 with status against the targets in dbt_project.yml.
+    columns:
+      - name: provider_code
+        tests: [unique, not_null]
+      - name: wait_status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['On target', 'Below target']
+
+  - name: subregion_service_reach
+    description: >
+      Subregion view combining SYNTHETIC referrals with REAL population and REAL lower urgency ED use.
+    columns:
+      - name: subregion
+        tests: [unique, not_null]
+      - name: lower_urgency_ed_presentations
+        tests: [not_null]
+
+  - name: lower_urgency_ed_benchmark
+    description: REAL. Western Victoria PHN lower urgency ED rate against Australia and all PHNs, by year.
+    columns:
+      - name: fy_end_year
+        tests: [unique, not_null]
+      - name: phn_count
+        description: Number of PHNs ranked that year. Expected to be 31.
+        tests:
+          - accepted_values:
+              arguments:
+                values: [31]
+                quote: false
+
+  - name: lower_urgency_ed_sa3
+    description: REAL. Lower urgency ED use for each Western Victoria SA3 by year.
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [fy_end_year, sa3_code]

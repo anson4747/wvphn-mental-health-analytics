@@ -1,0 +1,34 @@
+version: 2
+
+sources:
+  - name: pmhc_synthetic
+    description: >
+      SYNTHETIC commissioned mental health service data shaped on the national Primary Mental
+      Health Care Minimum Data Set (PMHC MDS). Produced by scripts/generate_synthetic_data.py with
+      a fixed seed. Not real providers, clients or services.
+    meta:
+      external_location: "read_csv('../data/raw/synthetic/{name}.csv', header = true, auto_detect = true)"
+    tables:
+      - name: dim_provider
+        description: One row per commissioned provider (de-identified code).
+      - name: dim_subregion
+        description: One row per WVPHN subregion. Population is REAL (2023 ERP, WVPHN Health Needs Assessment).
+      - name: map_sa3_subregion
+        description: REAL SA3 to subregion mapping (WVPHN Health Needs Assessment, Table 2).
+      - name: fact_episode
+        description: One row per episode of care (referral).
+      - name: fact_service_contact
+        description: One row per service contact.
+      - name: fact_outcome_measure
+        description: One row per outcome measure collection (K10+ for adults, SDQ for 12 to 17).
+
+  - name: aihw
+    description: >
+      REAL data. AIHW, Use of emergency departments for lower urgency care 2017-18 to 2024-25
+      (aihw-phc-23). Extract limited to national, PHN and Western Victoria SA3 rows for all persons
+      (see scripts/extract_aihw.py).
+    meta:
+      external_location: "read_csv('../data/raw/aihw/{name}.csv', header = true, all_varchar = true)"
+    tables:
+      - name: aihw_lower_urgency_ed_extract
+        description: Long format, one row per geography, year, triage category, hour band and measure.

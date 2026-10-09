@@ -1,0 +1,9 @@
+provider_code,subregion,program_type,annual_episode_target,provider_label,data_source
+GO-01,Geelong Otway,Psychological therapies,1700,GO-01 Psychological therapies,SYNTHETIC
+GO-02,Geelong Otway,Youth enhanced services,800,GO-02 Youth enhanced services,SYNTHETIC
+GO-03,Geelong Otway,Low intensity,1300,GO-03 Low intensity,SYNTHETIC
+BG-01,Ballarat Goldfields,Clinical care coordination,500,BG-01 Clinical care coordination,SYNTHETIC
+BG-02,Ballarat Goldfields,Psychological therapies,1100,BG-02 Psychological therapies,SYNTHETIC
+WG-01,Wimmera Grampians,Low intensity,600,WG-01 Low intensity,SYNTHETIC
+GS-01,Great South Coast,Psychological therapies,650,GS-01 Psychological therapies,SYNTHETIC
+GS-02,Great South Coast,Clinical care coordination,350,GS-02 Clinical care coordination,SYNTHETIC

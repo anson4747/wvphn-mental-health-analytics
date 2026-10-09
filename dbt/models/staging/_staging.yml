@@ -1,0 +1,120 @@
+version: 2
+
+models:
+  - name: stg_pmhc__providers
+    description: Commissioned providers (synthetic, de-identified).
+    columns:
+      - name: provider_code
+        tests: [unique, not_null]
+      - name: program_type
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Psychological therapies', 'Youth enhanced services', 'Low intensity', 'Clinical care coordination']
+      - name: subregion
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_pmhc__subregions')
+                field: subregion
+
+  - name: stg_pmhc__subregions
+    description: WVPHN subregions with real 2023 population.
+    columns:
+      - name: subregion
+        tests: [unique, not_null]
+      - name: population_2023
+        tests: [not_null]
+
+  - name: stg_pmhc__sa3_subregion_map
+    description: Real SA3 to subregion mapping.
+    columns:
+      - name: sa3_name
+        tests: [unique, not_null]
+      - name: subregion
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_pmhc__subregions')
+                field: subregion
+
+  - name: stg_pmhc__episodes
+    description: One row per episode of care, typed.
+    columns:
+      - name: episode_id
+        tests: [unique, not_null]
+      - name: provider_code
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_pmhc__providers')
+                field: provider_code
+      - name: referral_date
+        tests: [not_null]
+      - name: completion_status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Treatment concluded', 'Client disengaged', 'Referred on', 'Open', 'Referral not progressed', 'Awaiting first contact']
+      - name: iar_level
+        description: Initial Assessment and Referral level of care, 1 (self management) to 5 (acute).
+        tests:
+          - accepted_values:
+              arguments:
+                values: [1, 2, 3, 4, 5]
+                quote: false
+
+  - name: stg_pmhc__service_contacts
+    description: One row per service contact.
+    columns:
+      - name: contact_id
+        tests: [unique, not_null]
+      - name: episode_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_pmhc__episodes')
+                field: episode_id
+
+  - name: stg_pmhc__outcome_measures
+    description: One row per outcome measure collection. Occasion normalised to start / end.
+    columns:
+      - name: measure_id
+        tests: [unique, not_null]
+      - name: episode_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_pmhc__episodes')
+                field: episode_id
+      - name: measure
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['K10+', 'SDQ']
+      - name: collection_occasion
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['start', 'end']
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [episode_id, collection_occasion]
+
+  - name: stg_aihw__lower_urgency_ed
+    description: AIHW lower urgency ED data, deduplicated and typed (REAL data).
+    columns:
+      - name: geography_level
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['National', 'PHN', 'PHN group', 'SA3']
+      - name: measure_type
+        tests: [not_null]
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [fy_end_year, geography_level, geography_code, triage_category, hour_band, measure_name]
