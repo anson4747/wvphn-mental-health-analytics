@@ -5,16 +5,59 @@
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?logo=duckdb&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4169E1?logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black)
 
-An analytics engineering project for a Primary Health Network (PHN): commissioned mental health
-service data and public emergency department data are modelled in **dbt on DuckDB** into a tested
-star schema and a provider KPI layer that flags which providers need attention and why.
+An analytics project for a Primary Health Network (PHN), from raw data to decisions: commissioned
+mental health service data and public emergency department data are modelled in **dbt on DuckDB**
+into a tested star schema and KPI layer, and reported in **Power BI** as a two page performance
+report that says which providers need attention, which areas use emergency departments for
+lower urgency care, and what to do next.
 
 > **Real and synthetic data are kept separate and labelled throughout.**
 > Provider, client and service records are **synthetic**, shaped on the national Primary Mental
 > Health Care Minimum Data Set (PMHC MDS), because that data is confidential. Population figures,
 > the SA3 to subregion mapping and all emergency department data are **real** (AIHW and the
 > WVPHN Health Needs Assessment).
+
+## Power BI report
+
+### Page 1: Regional context (real AIHW data)
+
+![Power BI page 1: lower urgency ED presentations, Western Victoria PHN](docs/images/powerbi_regional_context.png)
+
+**What it shows**
+
+* Western Victoria's age-standardised rate of lower urgency (triage 4 and 5) ED presentations fell
+  **23.7% since 2017-18, to 83.6 per 1,000**, against a national benchmark of 104.7.
+* **9 of 10 SA3s improved.** The biggest falls were Ballarat (174 to 105) and Warrnambool (194 to 156).
+* **The exception is Glenelg - Southern Grampians** (Portland, Hamilton), which rose from 113 to 190
+  and is now the highest in the PHN.
+* Hypotheses to test, not conclusions: limited GP and after-hours access in rural towns, so the local
+  hospital becomes the default; and differences in how hospitals record presentations, since AIHW
+  counts formal public EDs only.
+
+### Page 2: Provider performance scorecard (synthetic data)
+
+![Power BI page 2: commissioned provider performance scorecard](docs/images/powerbi_provider_scorecard.png)
+
+**What it shows**
+
+* **2 of 8 providers fall below the 70% Out-3 threshold** (GS-01 and WG-01).
+* Both carry about **60% stale open episodes** against 14% to 26% elsewhere, which points to a
+  recording problem rather than a care problem.
+* **GS-01 rose above 70% within a quarter** of fixing episode closure.
+
+**Recommended actions**
+
+| Priority | Provider | Why |
+|---|---|---|
+| Escalate | BG-02 | 7 day follow up of suicide risk referrals at 84.4%, the lowest of eight |
+| Investigate | GS-02 | Median wait to first contact of 20.5 days against 8 elsewhere |
+| Support | WG-01 | Data quality work on episode closure before any performance discussion |
+
+> The report was built on the first version of the synthetic extract. Two generator defects were
+> fixed afterwards (see [Data quality](#data-quality)), so synthetic figures in the dbt charts further
+> down differ slightly. The real AIHW figures are identical in both.
 
 ## Highlights
 
@@ -23,6 +66,7 @@ star schema and a provider KPI layer that flags which providers need attention a
 * **Data quality tests that catch real defects:** the one-contact-per-day test found 2,648 duplicate contact days in the first version of the generator
 * **Real public data, cleaned properly:** a 130 MB AIHW release cut to 0.5 MB, re-encoded, deduplicated across worksheets and benchmarked against all 31 PHNs
 * **KPI logic in one place:** thresholds are dbt variables and every chart is rendered from a tested mart
+* **Decision-ready reporting:** a two page Power BI report with findings, hypotheses and prioritised actions, not just visuals
 
 ## Architecture
 
@@ -42,7 +86,7 @@ flowchart TB
     ED --> CH
 ```
 
-## What the KPI layer finds
+## The same KPIs, reproduced in dbt
 
 ### Provider scorecard, January to June 2026 (synthetic)
 
