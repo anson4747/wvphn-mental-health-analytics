@@ -1,0 +1,115 @@
+version: 2
+
+models:
+  - name: im02_lower_urgency
+    description: >
+      REAL. IM-02 lower urgency ED presentations (triage 4 and 5), age-standardised per 1,000,
+      by year, geography and hour band, with year on year change and change since 2017-18.
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [geography_code, fy_end_year, hour_band]
+    columns:
+      - name: hour_band
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['All-hours', 'In-hours', 'After-hours']
+      - name: peer_group
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['National', 'Metropolitan', 'Regional']
+      - name: rate
+        tests: [not_null]
+
+  - name: im02_sa3_hotspots
+    description: >
+      REAL. Latest year IM-02 by Western Victoria SA3 with baseline, change, rank and the number
+      of Urgent Care Clinics and commissioned after hours services in the SA3 (hypothesis layer).
+    columns:
+      - name: sa3_code
+        tests: [unique, not_null]
+      - name: rank_highest_first
+        tests: [not_null]
+
+  - name: criteria_check
+    description: >
+      REAL. Framework 2025 performance criteria tested every year, with a pack status of
+      Met, Watch or Not met.
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [indicator_code, criterion_level, fy_end_year]
+    columns:
+      - name: pack_status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Met', 'Watch', 'Not met']
+
+  - name: peer_comparison
+    description: >
+      REAL. Latest year rank of Western Victoria among AIHW's regional PHNs (an approximation of
+      the framework's peer groups). Rank 1 is the lowest rate.
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [indicator_code, geography_code]
+    columns:
+      - name: peer_count
+        tests:
+          - accepted_values:
+              arguments:
+                values: [16]
+
+  - name: im01_pph
+    description: >
+      REAL. IM-01 potentially preventable hospitalisations, age-standardised per 100,000, by year,
+      geography and PPH category, with year on year change and change since 2017-18.
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [geography_code, fy_end_year, pph_category]
+    columns:
+      - name: pph_category
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['PPH', 'acute', 'chronic', 'vaccine-preventable']
+      - name: peer_group
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['National', 'Metropolitan', 'Regional']
+
+  - name: im01_conditions
+    description: >
+      REAL. Latest year PPH rate by condition for Western Victoria, the regional PHN group and
+      Australia. Null rates are values AIHW did not publish (n.p.) or nil.
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [pph_group, pph_condition]
+
+  - name: im01_sa3
+    description: REAL. Total PPH by Western Victoria SA3 and year with change since 2017-18.
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [sa3_code, fy_end_year]
+    columns:
+      - name: rate
+        tests: [not_null]
+
+  - name: im01_age
+    description: >
+      REAL. Total PPH by age group (0-64, 65+) for Western Victoria, regional PHNs and Australia.
+      Crude rates per 100,000, because AIHW does not age-standardise within an age band.
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [geography_code, age_group, fy_end_year]
+    columns:
+      - name: crude_rate
+        tests: [not_null]

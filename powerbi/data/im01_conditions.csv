@@ -1,0 +1,23 @@
+financial_year,pph_group,pph_condition,wvphn_rate,regional_group_rate,national_rate,gap_to_regional,gap_to_national,wvphn_flag
+2023-24,Acute,Cellulitis,210.0,311.0,251.0,-101.0,-41.0,
+2023-24,Acute,Convulsions and epilepsy,167.0,178.0,149.0,-11.0,18.0,
+2023-24,Acute,Dental conditions,343.0,389.0,337.0,-46.0,6.0,
+2023-24,Acute,"Ear, nose and throat infections",170.0,189.0,173.0,-19.0,-3.0,
+2023-24,Acute,Eclampsia,,1.0,,,,n.p.
+2023-24,Acute,Gangrene,49.0,61.0,49.0,-12.0,0.0,
+2023-24,Acute,Pelvic inflammatory disease,,22.0,18.0,,,n.p.
+2023-24,Acute,Perforated/bleeding ulcer,19.0,20.0,20.0,-1.0,-1.0,
+2023-24,Acute,Pneumonia (not vaccine-preventable),16.0,31.0,32.0,-15.0,-16.0,
+2023-24,Acute,"Urinary tract infections, including pyelonephritis",231.0,308.0,294.0,-77.0,-63.0,
+2023-24,Chronic,Angina,70.0,91.0,78.0,-21.0,-8.0,
+2023-24,Chronic,Asthma,108.0,107.0,110.0,1.0,-2.0,
+2023-24,Chronic,Bronchiectasis,23.0,24.0,22.0,-1.0,1.0,
+2023-24,Chronic,Chronic obstructive pulmonary disease,207.0,255.0,199.0,-48.0,8.0,
+2023-24,Chronic,Congestive cardiac failure,164.0,182.0,174.0,-18.0,-10.0,
+2023-24,Chronic,Diabetes complications,169.0,227.0,200.0,-58.0,-31.0,
+2023-24,Chronic,Hypertension,36.0,41.0,42.0,-5.0,-6.0,
+2023-24,Chronic,Iron deficiency anaemia,349.0,256.0,224.0,93.0,125.0,
+2023-24,Chronic,Nutritional deficiencies,3.0,5.0,4.0,-2.0,-1.0,
+2023-24,Chronic,Rheumatic heart disease,11.0,24.0,20.0,-13.0,-9.0,
+2023-24,Vaccine-preventable,Other vaccine-preventable conditions,41.0,72.0,91.0,-31.0,-50.0,
+2023-24,Vaccine-preventable,Pneumonia and influenza (vaccine-preventable),135.0,174.0,162.0,-39.0,-27.0,
