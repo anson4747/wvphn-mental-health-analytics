@@ -32,3 +32,8 @@ jobs:
 
       - name: Render charts
         run: python scripts/make_charts.py --db dbt/wvphn.duckdb --out /tmp/charts
+
+      - name: Export Power BI files and confirm they match the committed files
+        run: |
+          python scripts/export_powerbi.py --db dbt/wvphn.duckdb --out /tmp/powerbi
+          diff -r /tmp/powerbi powerbi/data

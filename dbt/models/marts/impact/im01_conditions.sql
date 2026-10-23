@@ -4,6 +4,7 @@ with c as (
     select fy_end_year, financial_year, geography_code, pph_group, pph_condition, measure_value as rate, flag
     from {{ ref('stg_aihw__pph') }}
     where measure_type = 'rate_age_standardised'
+      and demographic_group = 'All persons'
       and not is_group_total
       and geography_code in ('PHN206', '003REG', '001NAT')
       and fy_end_year = (select max(fy_end_year) from {{ ref('stg_aihw__pph') }})

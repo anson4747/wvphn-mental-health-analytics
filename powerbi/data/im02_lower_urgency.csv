@@ -1,0 +1,817 @@
+indicator_code,financial_year,fy_end_year,geography_level,geography_code,geography_name,peer_group,is_wvphn,is_victorian_regional,hour_band,rate,prior_year_rate,change_pct_year_on_year,baseline_rate,change_pct_since_baseline
+IM-02,2017-18,2018,National,001NAT,National,National,False,False,After-hours,57.3,,,57.3,0.0
+IM-02,2018-19,2019,National,001NAT,National,National,False,False,After-hours,57.3,57.3,0.0,57.3,0.0
+IM-02,2019-20,2020,National,001NAT,National,National,False,False,After-hours,52.3,57.3,-8.7,57.3,-8.7
+IM-02,2020-21,2021,National,001NAT,National,National,False,False,After-hours,55.6,52.3,6.3,57.3,-3.0
+IM-02,2021-22,2022,National,001NAT,National,National,False,False,After-hours,55.8,55.6,0.4,57.3,-2.6
+IM-02,2022-23,2023,National,001NAT,National,National,False,False,After-hours,52.4,55.8,-6.1,57.3,-8.6
+IM-02,2023-24,2024,National,001NAT,National,National,False,False,After-hours,50.0,52.4,-4.6,57.3,-12.7
+IM-02,2024-25,2025,National,001NAT,National,National,False,False,After-hours,47.4,50.0,-5.2,57.3,-17.3
+IM-02,2017-18,2018,National,001NAT,National,National,False,False,All-hours,119.3,,,119.3,0.0
+IM-02,2018-19,2019,National,001NAT,National,National,False,False,All-hours,120.0,119.3,0.6,119.3,0.6
+IM-02,2019-20,2020,National,001NAT,National,National,False,False,All-hours,115.7,120.0,-3.6,119.3,-3.0
+IM-02,2020-21,2021,National,001NAT,National,National,False,False,All-hours,127.8,115.7,10.5,119.3,7.1
+IM-02,2021-22,2022,National,001NAT,National,National,False,False,All-hours,124.3,127.8,-2.7,119.3,4.2
+IM-02,2022-23,2023,National,001NAT,National,National,False,False,All-hours,114.3,124.3,-8.0,119.3,-4.2
+IM-02,2023-24,2024,National,001NAT,National,National,False,False,All-hours,110.1,114.3,-3.7,119.3,-7.7
+IM-02,2024-25,2025,National,001NAT,National,National,False,False,All-hours,104.7,110.1,-4.9,119.3,-12.2
+IM-02,2017-18,2018,National,001NAT,National,National,False,False,In-hours,62.0,,,62.0,0.0
+IM-02,2018-19,2019,National,001NAT,National,National,False,False,In-hours,62.8,62.0,1.3,62.0,1.3
+IM-02,2019-20,2020,National,001NAT,National,National,False,False,In-hours,63.5,62.8,1.1,62.0,2.4
+IM-02,2020-21,2021,National,001NAT,National,National,False,False,In-hours,72.3,63.5,13.9,62.0,16.6
+IM-02,2021-22,2022,National,001NAT,National,National,False,False,In-hours,68.5,72.3,-5.3,62.0,10.5
+IM-02,2022-23,2023,National,001NAT,National,National,False,False,In-hours,61.9,68.5,-9.6,62.0,-0.2
+IM-02,2023-24,2024,National,001NAT,National,National,False,False,In-hours,60.1,61.9,-2.9,62.0,-3.1
+IM-02,2024-25,2025,National,001NAT,National,National,False,False,In-hours,57.3,60.1,-4.7,62.0,-7.6
+IM-02,2017-18,2018,PHN group,003MET,Metropolitan,Metropolitan,False,False,After-hours,45.9,,,45.9,0.0
+IM-02,2018-19,2019,PHN group,003MET,Metropolitan,Metropolitan,False,False,After-hours,45.5,45.9,-0.9,45.9,-0.9
+IM-02,2019-20,2020,PHN group,003MET,Metropolitan,Metropolitan,False,False,After-hours,41.1,45.5,-9.7,45.9,-10.5
+IM-02,2020-21,2021,PHN group,003MET,Metropolitan,Metropolitan,False,False,After-hours,45.0,41.1,9.5,45.9,-2.0
+IM-02,2021-22,2022,PHN group,003MET,Metropolitan,Metropolitan,False,False,After-hours,45.8,45.0,1.8,45.9,-0.2
+IM-02,2022-23,2023,PHN group,003MET,Metropolitan,Metropolitan,False,False,After-hours,41.0,45.8,-10.5,45.9,-10.7
+IM-02,2023-24,2024,PHN group,003MET,Metropolitan,Metropolitan,False,False,After-hours,37.9,41.0,-7.6,45.9,-17.4
+IM-02,2024-25,2025,PHN group,003MET,Metropolitan,Metropolitan,False,False,After-hours,35.8,37.9,-5.5,45.9,-22.0
+IM-02,2017-18,2018,PHN group,003MET,Metropolitan,Metropolitan,False,False,All-hours,92.9,,,92.9,0.0
+IM-02,2018-19,2019,PHN group,003MET,Metropolitan,Metropolitan,False,False,All-hours,91.8,92.9,-1.2,92.9,-1.2
+IM-02,2019-20,2020,PHN group,003MET,Metropolitan,Metropolitan,False,False,All-hours,88.8,91.8,-3.3,92.9,-4.4
+IM-02,2020-21,2021,PHN group,003MET,Metropolitan,Metropolitan,False,False,All-hours,101.7,88.8,14.5,92.9,9.5
+IM-02,2021-22,2022,PHN group,003MET,Metropolitan,Metropolitan,False,False,All-hours,99.1,101.7,-2.6,92.9,6.7
+IM-02,2022-23,2023,PHN group,003MET,Metropolitan,Metropolitan,False,False,All-hours,85.4,99.1,-13.8,92.9,-8.1
+IM-02,2023-24,2024,PHN group,003MET,Metropolitan,Metropolitan,False,False,All-hours,79.4,85.4,-7.0,92.9,-14.5
+IM-02,2024-25,2025,PHN group,003MET,Metropolitan,Metropolitan,False,False,All-hours,75.6,79.4,-4.8,92.9,-18.6
+IM-02,2017-18,2018,PHN group,003MET,Metropolitan,Metropolitan,False,False,In-hours,47.0,,,47.0,0.0
+IM-02,2018-19,2019,PHN group,003MET,Metropolitan,Metropolitan,False,False,In-hours,46.3,47.0,-1.5,47.0,-1.5
+IM-02,2019-20,2020,PHN group,003MET,Metropolitan,Metropolitan,False,False,In-hours,47.7,46.3,3.0,47.0,1.5
+IM-02,2020-21,2021,PHN group,003MET,Metropolitan,Metropolitan,False,False,In-hours,56.7,47.7,18.9,47.0,20.6
+IM-02,2021-22,2022,PHN group,003MET,Metropolitan,Metropolitan,False,False,In-hours,53.3,56.7,-6.0,47.0,13.4
+IM-02,2022-23,2023,PHN group,003MET,Metropolitan,Metropolitan,False,False,In-hours,44.3,53.3,-16.9,47.0,-5.7
+IM-02,2023-24,2024,PHN group,003MET,Metropolitan,Metropolitan,False,False,In-hours,41.5,44.3,-6.3,47.0,-11.7
+IM-02,2024-25,2025,PHN group,003MET,Metropolitan,Metropolitan,False,False,In-hours,39.7,41.5,-4.3,47.0,-15.5
+IM-02,2017-18,2018,PHN group,003REG,Regional,Regional,False,False,After-hours,76.8,,,76.8,0.0
+IM-02,2018-19,2019,PHN group,003REG,Regional,Regional,False,False,After-hours,78.4,76.8,2.1,76.8,2.1
+IM-02,2019-20,2020,PHN group,003REG,Regional,Regional,False,False,After-hours,72.5,78.4,-7.5,76.8,-5.6
+IM-02,2020-21,2021,PHN group,003REG,Regional,Regional,False,False,After-hours,75.3,72.5,3.9,76.8,-2.0
+IM-02,2021-22,2022,PHN group,003REG,Regional,Regional,False,False,After-hours,73.7,75.3,-2.1,76.8,-4.0
+IM-02,2022-23,2023,PHN group,003REG,Regional,Regional,False,False,After-hours,72.7,73.7,-1.4,76.8,-5.3
+IM-02,2023-24,2024,PHN group,003REG,Regional,Regional,False,False,After-hours,70.8,72.7,-2.6,76.8,-7.8
+IM-02,2024-25,2025,PHN group,003REG,Regional,Regional,False,False,After-hours,67.0,70.8,-5.4,76.8,-12.8
+IM-02,2017-18,2018,PHN group,003REG,Regional,Regional,False,False,All-hours,165.6,,,165.6,0.0
+IM-02,2018-19,2019,PHN group,003REG,Regional,Regional,False,False,All-hours,171.2,165.6,3.4,165.6,3.4
+IM-02,2019-20,2020,PHN group,003REG,Regional,Regional,False,False,All-hours,164.8,171.2,-3.7,165.6,-0.5
+IM-02,2020-21,2021,PHN group,003REG,Regional,Regional,False,False,All-hours,176.7,164.8,7.2,165.6,6.7
+IM-02,2021-22,2022,PHN group,003REG,Regional,Regional,False,False,All-hours,170.2,176.7,-3.7,165.6,2.8
+IM-02,2022-23,2023,PHN group,003REG,Regional,Regional,False,False,All-hours,167.1,170.2,-1.8,165.6,0.9
+IM-02,2023-24,2024,PHN group,003REG,Regional,Regional,False,False,All-hours,164.2,167.1,-1.7,165.6,-0.8
+IM-02,2024-25,2025,PHN group,003REG,Regional,Regional,False,False,All-hours,155.7,164.2,-5.2,165.6,-6.0
+IM-02,2017-18,2018,PHN group,003REG,Regional,Regional,False,False,In-hours,88.7,,,88.7,0.0
+IM-02,2018-19,2019,PHN group,003REG,Regional,Regional,False,False,In-hours,92.9,88.7,4.7,88.7,4.7
+IM-02,2019-20,2020,PHN group,003REG,Regional,Regional,False,False,In-hours,92.3,92.9,-0.6,88.7,4.1
+IM-02,2020-21,2021,PHN group,003REG,Regional,Regional,False,False,In-hours,101.4,92.3,9.9,88.7,14.3
+IM-02,2021-22,2022,PHN group,003REG,Regional,Regional,False,False,In-hours,96.6,101.4,-4.7,88.7,8.9
+IM-02,2022-23,2023,PHN group,003REG,Regional,Regional,False,False,In-hours,94.3,96.6,-2.4,88.7,6.3
+IM-02,2023-24,2024,PHN group,003REG,Regional,Regional,False,False,In-hours,93.4,94.3,-1.0,88.7,5.3
+IM-02,2024-25,2025,PHN group,003REG,Regional,Regional,False,False,In-hours,88.7,93.4,-5.0,88.7,0.0
+IM-02,2017-18,2018,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,After-hours,49.8,,,49.8,0.0
+IM-02,2018-19,2019,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,After-hours,49.6,49.8,-0.4,49.8,-0.4
+IM-02,2019-20,2020,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,After-hours,46.4,49.6,-6.5,49.8,-6.8
+IM-02,2020-21,2021,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,After-hours,46.5,46.4,0.2,49.8,-6.6
+IM-02,2021-22,2022,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,After-hours,48.6,46.5,4.5,49.8,-2.4
+IM-02,2022-23,2023,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,After-hours,49.0,48.6,0.8,49.8,-1.6
+IM-02,2023-24,2024,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,After-hours,45.1,49.0,-8.0,49.8,-9.4
+IM-02,2024-25,2025,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,After-hours,42.8,45.1,-5.1,49.8,-14.1
+IM-02,2017-18,2018,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,All-hours,99.6,,,99.6,0.0
+IM-02,2018-19,2019,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,All-hours,99.0,99.6,-0.6,99.6,-0.6
+IM-02,2019-20,2020,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,All-hours,106.8,99.0,7.9,99.6,7.2
+IM-02,2020-21,2021,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,All-hours,99.6,106.8,-6.7,99.6,0.0
+IM-02,2021-22,2022,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,All-hours,100.8,99.6,1.2,99.6,1.2
+IM-02,2022-23,2023,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,All-hours,101.4,100.8,0.6,99.6,1.8
+IM-02,2023-24,2024,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,All-hours,94.6,101.4,-6.7,99.6,-5.0
+IM-02,2024-25,2025,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,All-hours,90.1,94.6,-4.8,99.6,-9.5
+IM-02,2017-18,2018,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,In-hours,49.9,,,49.9,0.0
+IM-02,2018-19,2019,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,In-hours,49.4,49.9,-1.0,49.9,-1.0
+IM-02,2019-20,2020,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,In-hours,60.3,49.4,22.1,49.9,20.8
+IM-02,2020-21,2021,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,In-hours,53.1,60.3,-11.9,49.9,6.4
+IM-02,2021-22,2022,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,In-hours,52.2,53.1,-1.7,49.9,4.6
+IM-02,2022-23,2023,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,In-hours,52.3,52.2,0.2,49.9,4.8
+IM-02,2023-24,2024,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,In-hours,49.5,52.3,-5.4,49.9,-0.8
+IM-02,2024-25,2025,PHN,PHN101,Central and Eastern Sydney,Metropolitan,False,False,In-hours,47.3,49.5,-4.4,49.9,-5.2
+IM-02,2017-18,2018,PHN,PHN102,Northern Sydney,Metropolitan,False,False,After-hours,50.0,,,50.0,0.0
+IM-02,2018-19,2019,PHN,PHN102,Northern Sydney,Metropolitan,False,False,After-hours,47.6,50.0,-4.8,50.0,-4.8
+IM-02,2019-20,2020,PHN,PHN102,Northern Sydney,Metropolitan,False,False,After-hours,44.3,47.6,-6.9,50.0,-11.4
+IM-02,2020-21,2021,PHN,PHN102,Northern Sydney,Metropolitan,False,False,After-hours,57.0,44.3,28.7,50.0,14.0
+IM-02,2021-22,2022,PHN,PHN102,Northern Sydney,Metropolitan,False,False,After-hours,55.7,57.0,-2.3,50.0,11.4
+IM-02,2022-23,2023,PHN,PHN102,Northern Sydney,Metropolitan,False,False,After-hours,45.4,55.7,-18.5,50.0,-9.2
+IM-02,2023-24,2024,PHN,PHN102,Northern Sydney,Metropolitan,False,False,After-hours,41.7,45.4,-8.1,50.0,-16.6
+IM-02,2024-25,2025,PHN,PHN102,Northern Sydney,Metropolitan,False,False,After-hours,36.3,41.7,-12.9,50.0,-27.4
+IM-02,2017-18,2018,PHN,PHN102,Northern Sydney,Metropolitan,False,False,All-hours,96.3,,,96.3,0.0
+IM-02,2018-19,2019,PHN,PHN102,Northern Sydney,Metropolitan,False,False,All-hours,89.9,96.3,-6.6,96.3,-6.6
+IM-02,2019-20,2020,PHN,PHN102,Northern Sydney,Metropolitan,False,False,All-hours,100.9,89.9,12.2,96.3,4.8
+IM-02,2020-21,2021,PHN,PHN102,Northern Sydney,Metropolitan,False,False,All-hours,149.0,100.9,47.7,96.3,54.7
+IM-02,2021-22,2022,PHN,PHN102,Northern Sydney,Metropolitan,False,False,All-hours,131.5,149.0,-11.7,96.3,36.6
+IM-02,2022-23,2023,PHN,PHN102,Northern Sydney,Metropolitan,False,False,All-hours,90.2,131.5,-31.4,96.3,-6.3
+IM-02,2023-24,2024,PHN,PHN102,Northern Sydney,Metropolitan,False,False,All-hours,83.3,90.2,-7.6,96.3,-13.5
+IM-02,2024-25,2025,PHN,PHN102,Northern Sydney,Metropolitan,False,False,All-hours,73.5,83.3,-11.8,96.3,-23.7
+IM-02,2017-18,2018,PHN,PHN102,Northern Sydney,Metropolitan,False,False,In-hours,46.3,,,46.3,0.0
+IM-02,2018-19,2019,PHN,PHN102,Northern Sydney,Metropolitan,False,False,In-hours,42.3,46.3,-8.6,46.3,-8.6
+IM-02,2019-20,2020,PHN,PHN102,Northern Sydney,Metropolitan,False,False,In-hours,56.7,42.3,34.0,46.3,22.5
+IM-02,2020-21,2021,PHN,PHN102,Northern Sydney,Metropolitan,False,False,In-hours,91.9,56.7,62.1,46.3,98.5
+IM-02,2021-22,2022,PHN,PHN102,Northern Sydney,Metropolitan,False,False,In-hours,75.8,91.9,-17.5,46.3,63.7
+IM-02,2022-23,2023,PHN,PHN102,Northern Sydney,Metropolitan,False,False,In-hours,44.8,75.8,-40.9,46.3,-3.2
+IM-02,2023-24,2024,PHN,PHN102,Northern Sydney,Metropolitan,False,False,In-hours,41.5,44.8,-7.4,46.3,-10.4
+IM-02,2024-25,2025,PHN,PHN102,Northern Sydney,Metropolitan,False,False,In-hours,37.2,41.5,-10.4,46.3,-19.7
+IM-02,2017-18,2018,PHN,PHN103,Western Sydney,Metropolitan,False,False,After-hours,43.1,,,43.1,0.0
+IM-02,2018-19,2019,PHN,PHN103,Western Sydney,Metropolitan,False,False,After-hours,44.3,43.1,2.8,43.1,2.8
+IM-02,2019-20,2020,PHN,PHN103,Western Sydney,Metropolitan,False,False,After-hours,39.0,44.3,-12.0,43.1,-9.5
+IM-02,2020-21,2021,PHN,PHN103,Western Sydney,Metropolitan,False,False,After-hours,38.0,39.0,-2.6,43.1,-11.8
+IM-02,2021-22,2022,PHN,PHN103,Western Sydney,Metropolitan,False,False,After-hours,40.3,38.0,6.1,43.1,-6.5
+IM-02,2022-23,2023,PHN,PHN103,Western Sydney,Metropolitan,False,False,After-hours,40.3,40.3,0.0,43.1,-6.5
+IM-02,2023-24,2024,PHN,PHN103,Western Sydney,Metropolitan,False,False,After-hours,38.0,40.3,-5.7,43.1,-11.8
+IM-02,2024-25,2025,PHN,PHN103,Western Sydney,Metropolitan,False,False,After-hours,36.1,38.0,-5.0,43.1,-16.2
+IM-02,2017-18,2018,PHN,PHN103,Western Sydney,Metropolitan,False,False,All-hours,82.5,,,82.5,0.0
+IM-02,2018-19,2019,PHN,PHN103,Western Sydney,Metropolitan,False,False,All-hours,83.9,82.5,1.7,82.5,1.7
+IM-02,2019-20,2020,PHN,PHN103,Western Sydney,Metropolitan,False,False,All-hours,78.3,83.9,-6.7,82.5,-5.1
+IM-02,2020-21,2021,PHN,PHN103,Western Sydney,Metropolitan,False,False,All-hours,76.9,78.3,-1.8,82.5,-6.8
+IM-02,2021-22,2022,PHN,PHN103,Western Sydney,Metropolitan,False,False,All-hours,78.2,76.9,1.7,82.5,-5.2
+IM-02,2022-23,2023,PHN,PHN103,Western Sydney,Metropolitan,False,False,All-hours,79.3,78.2,1.4,82.5,-3.9
+IM-02,2023-24,2024,PHN,PHN103,Western Sydney,Metropolitan,False,False,All-hours,75.8,79.3,-4.4,82.5,-8.1
+IM-02,2024-25,2025,PHN,PHN103,Western Sydney,Metropolitan,False,False,All-hours,72.8,75.8,-4.0,82.5,-11.8
+IM-02,2017-18,2018,PHN,PHN103,Western Sydney,Metropolitan,False,False,In-hours,39.4,,,39.4,0.0
+IM-02,2018-19,2019,PHN,PHN103,Western Sydney,Metropolitan,False,False,In-hours,39.6,39.4,0.5,39.4,0.5
+IM-02,2019-20,2020,PHN,PHN103,Western Sydney,Metropolitan,False,False,In-hours,39.3,39.6,-0.8,39.4,-0.3
+IM-02,2020-21,2021,PHN,PHN103,Western Sydney,Metropolitan,False,False,In-hours,38.9,39.3,-1.0,39.4,-1.3
+IM-02,2021-22,2022,PHN,PHN103,Western Sydney,Metropolitan,False,False,In-hours,37.9,38.9,-2.6,39.4,-3.8
+IM-02,2022-23,2023,PHN,PHN103,Western Sydney,Metropolitan,False,False,In-hours,39.0,37.9,2.9,39.4,-1.0
+IM-02,2023-24,2024,PHN,PHN103,Western Sydney,Metropolitan,False,False,In-hours,37.8,39.0,-3.1,39.4,-4.1
+IM-02,2024-25,2025,PHN,PHN103,Western Sydney,Metropolitan,False,False,In-hours,36.8,37.8,-2.6,39.4,-6.6
+IM-02,2017-18,2018,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,After-hours,65.8,,,65.8,0.0
+IM-02,2018-19,2019,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,After-hours,64.8,65.8,-1.5,65.8,-1.5
+IM-02,2019-20,2020,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,After-hours,56.9,64.8,-12.2,65.8,-13.5
+IM-02,2020-21,2021,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,After-hours,59.4,56.9,4.4,65.8,-9.7
+IM-02,2021-22,2022,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,After-hours,59.0,59.4,-0.7,65.8,-10.3
+IM-02,2022-23,2023,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,After-hours,58.1,59.0,-1.5,65.8,-11.7
+IM-02,2023-24,2024,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,After-hours,55.6,58.1,-4.3,65.8,-15.5
+IM-02,2024-25,2025,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,After-hours,54.5,55.6,-2.0,65.8,-17.2
+IM-02,2017-18,2018,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,All-hours,130.9,,,130.9,0.0
+IM-02,2018-19,2019,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,All-hours,131.9,130.9,0.8,130.9,0.8
+IM-02,2019-20,2020,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,All-hours,119.7,131.9,-9.2,130.9,-8.6
+IM-02,2020-21,2021,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,All-hours,127.6,119.7,6.6,130.9,-2.5
+IM-02,2021-22,2022,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,All-hours,123.4,127.6,-3.3,130.9,-5.7
+IM-02,2022-23,2023,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,All-hours,123.1,123.4,-0.2,130.9,-6.0
+IM-02,2023-24,2024,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,All-hours,120.9,123.1,-1.8,130.9,-7.6
+IM-02,2024-25,2025,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,All-hours,118.5,120.9,-2.0,130.9,-9.5
+IM-02,2017-18,2018,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,In-hours,65.1,,,65.1,0.0
+IM-02,2018-19,2019,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,In-hours,67.0,65.1,2.9,65.1,2.9
+IM-02,2019-20,2020,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,In-hours,62.9,67.0,-6.1,65.1,-3.4
+IM-02,2020-21,2021,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,In-hours,68.2,62.9,8.4,65.1,4.8
+IM-02,2021-22,2022,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,In-hours,64.4,68.2,-5.6,65.1,-1.1
+IM-02,2022-23,2023,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,In-hours,65.0,64.4,0.9,65.1,-0.2
+IM-02,2023-24,2024,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,In-hours,65.2,65.0,0.3,65.1,0.2
+IM-02,2024-25,2025,PHN,PHN104,Nepean Blue Mountains,Metropolitan,False,False,In-hours,64.0,65.2,-1.8,65.1,-1.7
+IM-02,2017-18,2018,PHN,PHN105,South Western Sydney,Metropolitan,False,False,After-hours,52.5,,,52.5,0.0
+IM-02,2018-19,2019,PHN,PHN105,South Western Sydney,Metropolitan,False,False,After-hours,52.7,52.5,0.4,52.5,0.4
+IM-02,2019-20,2020,PHN,PHN105,South Western Sydney,Metropolitan,False,False,After-hours,45.8,52.7,-13.1,52.5,-12.8
+IM-02,2020-21,2021,PHN,PHN105,South Western Sydney,Metropolitan,False,False,After-hours,43.0,45.8,-6.1,52.5,-18.1
+IM-02,2021-22,2022,PHN,PHN105,South Western Sydney,Metropolitan,False,False,After-hours,48.9,43.0,13.7,52.5,-6.9
+IM-02,2022-23,2023,PHN,PHN105,South Western Sydney,Metropolitan,False,False,After-hours,44.6,48.9,-8.8,52.5,-15.0
+IM-02,2023-24,2024,PHN,PHN105,South Western Sydney,Metropolitan,False,False,After-hours,39.4,44.6,-11.7,52.5,-25.0
+IM-02,2024-25,2025,PHN,PHN105,South Western Sydney,Metropolitan,False,False,After-hours,37.1,39.4,-5.8,52.5,-29.3
+IM-02,2017-18,2018,PHN,PHN105,South Western Sydney,Metropolitan,False,False,All-hours,101.3,,,101.3,0.0
+IM-02,2018-19,2019,PHN,PHN105,South Western Sydney,Metropolitan,False,False,All-hours,101.1,101.3,-0.2,101.3,-0.2
+IM-02,2019-20,2020,PHN,PHN105,South Western Sydney,Metropolitan,False,False,All-hours,94.0,101.1,-7.0,101.3,-7.2
+IM-02,2020-21,2021,PHN,PHN105,South Western Sydney,Metropolitan,False,False,All-hours,87.3,94.0,-7.1,101.3,-13.8
+IM-02,2021-22,2022,PHN,PHN105,South Western Sydney,Metropolitan,False,False,All-hours,95.5,87.3,9.4,101.3,-5.7
+IM-02,2022-23,2023,PHN,PHN105,South Western Sydney,Metropolitan,False,False,All-hours,88.8,95.5,-7.0,101.3,-12.3
+IM-02,2023-24,2024,PHN,PHN105,South Western Sydney,Metropolitan,False,False,All-hours,80.6,88.8,-9.2,101.3,-20.4
+IM-02,2024-25,2025,PHN,PHN105,South Western Sydney,Metropolitan,False,False,All-hours,77.1,80.6,-4.3,101.3,-23.9
+IM-02,2017-18,2018,PHN,PHN105,South Western Sydney,Metropolitan,False,False,In-hours,48.8,,,48.8,0.0
+IM-02,2018-19,2019,PHN,PHN105,South Western Sydney,Metropolitan,False,False,In-hours,48.4,48.8,-0.8,48.8,-0.8
+IM-02,2019-20,2020,PHN,PHN105,South Western Sydney,Metropolitan,False,False,In-hours,48.3,48.4,-0.2,48.8,-1.0
+IM-02,2020-21,2021,PHN,PHN105,South Western Sydney,Metropolitan,False,False,In-hours,44.3,48.3,-8.3,48.8,-9.2
+IM-02,2021-22,2022,PHN,PHN105,South Western Sydney,Metropolitan,False,False,In-hours,46.6,44.3,5.2,48.8,-4.5
+IM-02,2022-23,2023,PHN,PHN105,South Western Sydney,Metropolitan,False,False,In-hours,44.2,46.6,-5.2,48.8,-9.4
+IM-02,2023-24,2024,PHN,PHN105,South Western Sydney,Metropolitan,False,False,In-hours,41.2,44.2,-6.8,48.8,-15.6
+IM-02,2024-25,2025,PHN,PHN105,South Western Sydney,Metropolitan,False,False,In-hours,40.1,41.2,-2.7,48.8,-17.8
+IM-02,2017-18,2018,PHN,PHN106,South Eastern NSW,Regional,False,False,After-hours,86.6,,,86.6,0.0
+IM-02,2018-19,2019,PHN,PHN106,South Eastern NSW,Regional,False,False,After-hours,90.2,86.6,4.2,86.6,4.2
+IM-02,2019-20,2020,PHN,PHN106,South Eastern NSW,Regional,False,False,After-hours,78.9,90.2,-12.5,86.6,-8.9
+IM-02,2020-21,2021,PHN,PHN106,South Eastern NSW,Regional,False,False,After-hours,81.4,78.9,3.2,86.6,-6.0
+IM-02,2021-22,2022,PHN,PHN106,South Eastern NSW,Regional,False,False,After-hours,82.0,81.4,0.7,86.6,-5.3
+IM-02,2022-23,2023,PHN,PHN106,South Eastern NSW,Regional,False,False,After-hours,84.1,82.0,2.6,86.6,-2.9
+IM-02,2023-24,2024,PHN,PHN106,South Eastern NSW,Regional,False,False,After-hours,78.6,84.1,-6.5,86.6,-9.2
+IM-02,2024-25,2025,PHN,PHN106,South Eastern NSW,Regional,False,False,After-hours,72.2,78.6,-8.1,86.6,-16.6
+IM-02,2017-18,2018,PHN,PHN106,South Eastern NSW,Regional,False,False,All-hours,189.8,,,189.8,0.0
+IM-02,2018-19,2019,PHN,PHN106,South Eastern NSW,Regional,False,False,All-hours,198.9,189.8,4.8,189.8,4.8
+IM-02,2019-20,2020,PHN,PHN106,South Eastern NSW,Regional,False,False,All-hours,179.2,198.9,-9.9,189.8,-5.6
+IM-02,2020-21,2021,PHN,PHN106,South Eastern NSW,Regional,False,False,All-hours,188.5,179.2,5.2,189.8,-0.7
+IM-02,2021-22,2022,PHN,PHN106,South Eastern NSW,Regional,False,False,All-hours,186.6,188.5,-1.0,189.8,-1.7
+IM-02,2022-23,2023,PHN,PHN106,South Eastern NSW,Regional,False,False,All-hours,189.8,186.6,1.7,189.8,0.0
+IM-02,2023-24,2024,PHN,PHN106,South Eastern NSW,Regional,False,False,All-hours,180.5,189.8,-4.9,189.8,-4.9
+IM-02,2024-25,2025,PHN,PHN106,South Eastern NSW,Regional,False,False,All-hours,165.6,180.5,-8.3,189.8,-12.8
+IM-02,2017-18,2018,PHN,PHN106,South Eastern NSW,Regional,False,False,In-hours,103.3,,,103.3,0.0
+IM-02,2018-19,2019,PHN,PHN106,South Eastern NSW,Regional,False,False,In-hours,108.7,103.3,5.2,103.3,5.2
+IM-02,2019-20,2020,PHN,PHN106,South Eastern NSW,Regional,False,False,In-hours,100.3,108.7,-7.7,103.3,-2.9
+IM-02,2020-21,2021,PHN,PHN106,South Eastern NSW,Regional,False,False,In-hours,107.0,100.3,6.7,103.3,3.6
+IM-02,2021-22,2022,PHN,PHN106,South Eastern NSW,Regional,False,False,In-hours,104.7,107.0,-2.1,103.3,1.4
+IM-02,2022-23,2023,PHN,PHN106,South Eastern NSW,Regional,False,False,In-hours,105.7,104.7,1.0,103.3,2.3
+IM-02,2023-24,2024,PHN,PHN106,South Eastern NSW,Regional,False,False,In-hours,101.8,105.7,-3.7,103.3,-1.5
+IM-02,2024-25,2025,PHN,PHN106,South Eastern NSW,Regional,False,False,In-hours,93.4,101.8,-8.3,103.3,-9.6
+IM-02,2017-18,2018,PHN,PHN107,Western NSW,Regional,False,False,After-hours,153.6,,,153.6,0.0
+IM-02,2018-19,2019,PHN,PHN107,Western NSW,Regional,False,False,After-hours,151.0,153.6,-1.7,153.6,-1.7
+IM-02,2019-20,2020,PHN,PHN107,Western NSW,Regional,False,False,After-hours,138.7,151.0,-8.1,153.6,-9.7
+IM-02,2020-21,2021,PHN,PHN107,Western NSW,Regional,False,False,After-hours,155.0,138.7,11.8,153.6,0.9
+IM-02,2021-22,2022,PHN,PHN107,Western NSW,Regional,False,False,After-hours,144.1,155.0,-7.0,153.6,-6.2
+IM-02,2022-23,2023,PHN,PHN107,Western NSW,Regional,False,False,After-hours,145.3,144.1,0.8,153.6,-5.4
+IM-02,2023-24,2024,PHN,PHN107,Western NSW,Regional,False,False,After-hours,144.0,145.3,-0.9,153.6,-6.3
+IM-02,2024-25,2025,PHN,PHN107,Western NSW,Regional,False,False,After-hours,135.0,144.0,-6.3,153.6,-12.1
+IM-02,2017-18,2018,PHN,PHN107,Western NSW,Regional,False,False,All-hours,339.8,,,339.8,0.0
+IM-02,2018-19,2019,PHN,PHN107,Western NSW,Regional,False,False,All-hours,342.3,339.8,0.7,339.8,0.7
+IM-02,2019-20,2020,PHN,PHN107,Western NSW,Regional,False,False,All-hours,337.0,342.3,-1.5,339.8,-0.8
+IM-02,2020-21,2021,PHN,PHN107,Western NSW,Regional,False,False,All-hours,407.9,337.0,21.0,339.8,20.0
+IM-02,2021-22,2022,PHN,PHN107,Western NSW,Regional,False,False,All-hours,355.7,407.9,-12.8,339.8,4.7
+IM-02,2022-23,2023,PHN,PHN107,Western NSW,Regional,False,False,All-hours,358.1,355.7,0.7,339.8,5.4
+IM-02,2023-24,2024,PHN,PHN107,Western NSW,Regional,False,False,All-hours,368.0,358.1,2.8,339.8,8.3
+IM-02,2024-25,2025,PHN,PHN107,Western NSW,Regional,False,False,All-hours,345.9,368.0,-6.0,339.8,1.8
+IM-02,2017-18,2018,PHN,PHN107,Western NSW,Regional,False,False,In-hours,186.2,,,186.2,0.0
+IM-02,2018-19,2019,PHN,PHN107,Western NSW,Regional,False,False,In-hours,191.3,186.2,2.7,186.2,2.7
+IM-02,2019-20,2020,PHN,PHN107,Western NSW,Regional,False,False,In-hours,198.3,191.3,3.7,186.2,6.5
+IM-02,2020-21,2021,PHN,PHN107,Western NSW,Regional,False,False,In-hours,252.9,198.3,27.5,186.2,35.8
+IM-02,2021-22,2022,PHN,PHN107,Western NSW,Regional,False,False,In-hours,211.6,252.9,-16.3,186.2,13.6
+IM-02,2022-23,2023,PHN,PHN107,Western NSW,Regional,False,False,In-hours,212.8,211.6,0.6,186.2,14.3
+IM-02,2023-24,2024,PHN,PHN107,Western NSW,Regional,False,False,In-hours,224.0,212.8,5.3,186.2,20.3
+IM-02,2024-25,2025,PHN,PHN107,Western NSW,Regional,False,False,In-hours,210.9,224.0,-5.8,186.2,13.3
+IM-02,2017-18,2018,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,After-hours,98.9,,,98.9,0.0
+IM-02,2018-19,2019,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,After-hours,97.2,98.9,-1.7,98.9,-1.7
+IM-02,2019-20,2020,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,After-hours,89.2,97.2,-8.2,98.9,-9.8
+IM-02,2020-21,2021,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,After-hours,95.2,89.2,6.7,98.9,-3.7
+IM-02,2021-22,2022,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,After-hours,90.3,95.2,-5.1,98.9,-8.7
+IM-02,2022-23,2023,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,After-hours,87.0,90.3,-3.7,98.9,-12.0
+IM-02,2023-24,2024,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,After-hours,81.3,87.0,-6.6,98.9,-17.8
+IM-02,2024-25,2025,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,After-hours,75.0,81.3,-7.7,98.9,-24.2
+IM-02,2017-18,2018,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,All-hours,205.5,,,205.5,0.0
+IM-02,2018-19,2019,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,All-hours,201.8,205.5,-1.8,205.5,-1.8
+IM-02,2019-20,2020,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,All-hours,196.5,201.8,-2.6,205.5,-4.4
+IM-02,2020-21,2021,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,All-hours,217.3,196.5,10.6,205.5,5.7
+IM-02,2021-22,2022,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,All-hours,205.8,217.3,-5.3,205.5,0.1
+IM-02,2022-23,2023,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,All-hours,195.1,205.8,-5.2,205.5,-5.1
+IM-02,2023-24,2024,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,All-hours,184.6,195.1,-5.4,205.5,-10.2
+IM-02,2024-25,2025,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,All-hours,170.0,184.6,-7.9,205.5,-17.3
+IM-02,2017-18,2018,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,In-hours,106.6,,,106.6,0.0
+IM-02,2018-19,2019,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,In-hours,104.6,106.6,-1.9,106.6,-1.9
+IM-02,2019-20,2020,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,In-hours,107.2,104.6,2.5,106.6,0.6
+IM-02,2020-21,2021,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,In-hours,122.1,107.2,13.9,106.6,14.5
+IM-02,2021-22,2022,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,In-hours,115.6,122.1,-5.3,106.6,8.4
+IM-02,2022-23,2023,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,In-hours,108.1,115.6,-6.5,106.6,1.4
+IM-02,2023-24,2024,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,In-hours,103.2,108.1,-4.5,106.6,-3.2
+IM-02,2024-25,2025,PHN,PHN108,Hunter New England and Central Coast,Regional,False,False,In-hours,95.0,103.2,-7.9,106.6,-10.9
+IM-02,2017-18,2018,PHN,PHN109,North Coast,Regional,False,False,After-hours,121.5,,,121.5,0.0
+IM-02,2018-19,2019,PHN,PHN109,North Coast,Regional,False,False,After-hours,122.5,121.5,0.8,121.5,0.8
+IM-02,2019-20,2020,PHN,PHN109,North Coast,Regional,False,False,After-hours,114.9,122.5,-6.2,121.5,-5.4
+IM-02,2020-21,2021,PHN,PHN109,North Coast,Regional,False,False,After-hours,116.5,114.9,1.4,121.5,-4.1
+IM-02,2021-22,2022,PHN,PHN109,North Coast,Regional,False,False,After-hours,117.5,116.5,0.9,121.5,-3.3
+IM-02,2022-23,2023,PHN,PHN109,North Coast,Regional,False,False,After-hours,116.5,117.5,-0.9,121.5,-4.1
+IM-02,2023-24,2024,PHN,PHN109,North Coast,Regional,False,False,After-hours,116.5,116.5,0.0,121.5,-4.1
+IM-02,2024-25,2025,PHN,PHN109,North Coast,Regional,False,False,After-hours,112.6,116.5,-3.3,121.5,-7.3
+IM-02,2017-18,2018,PHN,PHN109,North Coast,Regional,False,False,All-hours,279.5,,,279.5,0.0
+IM-02,2018-19,2019,PHN,PHN109,North Coast,Regional,False,False,All-hours,284.2,279.5,1.7,279.5,1.7
+IM-02,2019-20,2020,PHN,PHN109,North Coast,Regional,False,False,All-hours,275.5,284.2,-3.1,279.5,-1.4
+IM-02,2020-21,2021,PHN,PHN109,North Coast,Regional,False,False,All-hours,284.6,275.5,3.3,279.5,1.8
+IM-02,2021-22,2022,PHN,PHN109,North Coast,Regional,False,False,All-hours,286.1,284.6,0.5,279.5,2.4
+IM-02,2022-23,2023,PHN,PHN109,North Coast,Regional,False,False,All-hours,282.6,286.1,-1.2,279.5,1.1
+IM-02,2023-24,2024,PHN,PHN109,North Coast,Regional,False,False,All-hours,282.3,282.6,-0.1,279.5,1.0
+IM-02,2024-25,2025,PHN,PHN109,North Coast,Regional,False,False,All-hours,277.7,282.3,-1.6,279.5,-0.6
+IM-02,2017-18,2018,PHN,PHN109,North Coast,Regional,False,False,In-hours,158.0,,,158.0,0.0
+IM-02,2018-19,2019,PHN,PHN109,North Coast,Regional,False,False,In-hours,161.6,158.0,2.3,158.0,2.3
+IM-02,2019-20,2020,PHN,PHN109,North Coast,Regional,False,False,In-hours,160.7,161.6,-0.6,158.0,1.7
+IM-02,2020-21,2021,PHN,PHN109,North Coast,Regional,False,False,In-hours,168.1,160.7,4.6,158.0,6.4
+IM-02,2021-22,2022,PHN,PHN109,North Coast,Regional,False,False,In-hours,168.5,168.1,0.2,158.0,6.6
+IM-02,2022-23,2023,PHN,PHN109,North Coast,Regional,False,False,In-hours,166.1,168.5,-1.4,158.0,5.1
+IM-02,2023-24,2024,PHN,PHN109,North Coast,Regional,False,False,In-hours,165.8,166.1,-0.2,158.0,4.9
+IM-02,2024-25,2025,PHN,PHN109,North Coast,Regional,False,False,In-hours,165.1,165.8,-0.4,158.0,4.5
+IM-02,2017-18,2018,PHN,PHN110,Murrumbidgee,Regional,False,False,After-hours,116.2,,,116.2,0.0
+IM-02,2018-19,2019,PHN,PHN110,Murrumbidgee,Regional,False,False,After-hours,122.6,116.2,5.5,116.2,5.5
+IM-02,2019-20,2020,PHN,PHN110,Murrumbidgee,Regional,False,False,After-hours,111.8,122.6,-8.8,116.2,-3.8
+IM-02,2020-21,2021,PHN,PHN110,Murrumbidgee,Regional,False,False,After-hours,110.0,111.8,-1.6,116.2,-5.3
+IM-02,2021-22,2022,PHN,PHN110,Murrumbidgee,Regional,False,False,After-hours,115.3,110.0,4.8,116.2,-0.8
+IM-02,2022-23,2023,PHN,PHN110,Murrumbidgee,Regional,False,False,After-hours,117.5,115.3,1.9,116.2,1.1
+IM-02,2023-24,2024,PHN,PHN110,Murrumbidgee,Regional,False,False,After-hours,118.2,117.5,0.6,116.2,1.7
+IM-02,2024-25,2025,PHN,PHN110,Murrumbidgee,Regional,False,False,After-hours,115.0,118.2,-2.7,116.2,-1.0
+IM-02,2017-18,2018,PHN,PHN110,Murrumbidgee,Regional,False,False,All-hours,244.8,,,244.8,0.0
+IM-02,2018-19,2019,PHN,PHN110,Murrumbidgee,Regional,False,False,All-hours,262.0,244.8,7.0,244.8,7.0
+IM-02,2019-20,2020,PHN,PHN110,Murrumbidgee,Regional,False,False,All-hours,251.8,262.0,-3.9,244.8,2.9
+IM-02,2020-21,2021,PHN,PHN110,Murrumbidgee,Regional,False,False,All-hours,255.9,251.8,1.6,244.8,4.5
+IM-02,2021-22,2022,PHN,PHN110,Murrumbidgee,Regional,False,False,All-hours,273.7,255.9,7.0,244.8,11.8
+IM-02,2022-23,2023,PHN,PHN110,Murrumbidgee,Regional,False,False,All-hours,286.1,273.7,4.5,244.8,16.9
+IM-02,2023-24,2024,PHN,PHN110,Murrumbidgee,Regional,False,False,All-hours,293.9,286.1,2.7,244.8,20.1
+IM-02,2024-25,2025,PHN,PHN110,Murrumbidgee,Regional,False,False,All-hours,289.2,293.9,-1.6,244.8,18.1
+IM-02,2017-18,2018,PHN,PHN110,Murrumbidgee,Regional,False,False,In-hours,128.6,,,128.6,0.0
+IM-02,2018-19,2019,PHN,PHN110,Murrumbidgee,Regional,False,False,In-hours,139.4,128.6,8.4,128.6,8.4
+IM-02,2019-20,2020,PHN,PHN110,Murrumbidgee,Regional,False,False,In-hours,140.1,139.4,0.5,128.6,8.9
+IM-02,2020-21,2021,PHN,PHN110,Murrumbidgee,Regional,False,False,In-hours,145.9,140.1,4.1,128.6,13.5
+IM-02,2021-22,2022,PHN,PHN110,Murrumbidgee,Regional,False,False,In-hours,158.4,145.9,8.6,128.6,23.2
+IM-02,2022-23,2023,PHN,PHN110,Murrumbidgee,Regional,False,False,In-hours,168.6,158.4,6.4,128.6,31.1
+IM-02,2023-24,2024,PHN,PHN110,Murrumbidgee,Regional,False,False,In-hours,175.6,168.6,4.2,128.6,36.5
+IM-02,2024-25,2025,PHN,PHN110,Murrumbidgee,Regional,False,False,In-hours,174.2,175.6,-0.8,128.6,35.5
+IM-02,2017-18,2018,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,After-hours,50.0,,,50.0,0.0
+IM-02,2018-19,2019,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,After-hours,48.4,50.0,-3.2,50.0,-3.2
+IM-02,2019-20,2020,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,After-hours,42.3,48.4,-12.6,50.0,-15.4
+IM-02,2020-21,2021,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,After-hours,39.8,42.3,-5.9,50.0,-20.4
+IM-02,2021-22,2022,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,After-hours,45.2,39.8,13.6,50.0,-9.6
+IM-02,2022-23,2023,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,After-hours,44.1,45.2,-2.4,50.0,-11.8
+IM-02,2023-24,2024,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,After-hours,38.2,44.1,-13.4,50.0,-23.6
+IM-02,2024-25,2025,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,After-hours,37.0,38.2,-3.1,50.0,-26.0
+IM-02,2017-18,2018,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,All-hours,101.9,,,101.9,0.0
+IM-02,2018-19,2019,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,All-hours,98.0,101.9,-3.8,101.9,-3.8
+IM-02,2019-20,2020,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,All-hours,88.0,98.0,-10.2,101.9,-13.6
+IM-02,2020-21,2021,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,All-hours,85.2,88.0,-3.2,101.9,-16.4
+IM-02,2021-22,2022,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,All-hours,93.6,85.2,9.9,101.9,-8.1
+IM-02,2022-23,2023,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,All-hours,91.8,93.6,-1.9,101.9,-9.9
+IM-02,2023-24,2024,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,All-hours,80.5,91.8,-12.3,101.9,-21.0
+IM-02,2024-25,2025,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,All-hours,78.0,80.5,-3.1,101.9,-23.5
+IM-02,2017-18,2018,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,In-hours,51.9,,,51.9,0.0
+IM-02,2018-19,2019,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,In-hours,49.7,51.9,-4.2,51.9,-4.2
+IM-02,2019-20,2020,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,In-hours,45.7,49.7,-8.0,51.9,-11.9
+IM-02,2020-21,2021,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,In-hours,45.5,45.7,-0.4,51.9,-12.3
+IM-02,2021-22,2022,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,In-hours,48.4,45.5,6.4,51.9,-6.7
+IM-02,2022-23,2023,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,In-hours,47.7,48.4,-1.4,51.9,-8.1
+IM-02,2023-24,2024,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,In-hours,42.3,47.7,-11.3,51.9,-18.5
+IM-02,2024-25,2025,PHN,PHN201,North Western Melbourne,Metropolitan,False,False,In-hours,41.0,42.3,-3.1,51.9,-21.0
+IM-02,2017-18,2018,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,After-hours,39.7,,,39.7,0.0
+IM-02,2018-19,2019,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,After-hours,39.1,39.7,-1.5,39.7,-1.5
+IM-02,2019-20,2020,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,After-hours,33.7,39.1,-13.8,39.7,-15.1
+IM-02,2020-21,2021,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,After-hours,32.5,33.7,-3.6,39.7,-18.1
+IM-02,2021-22,2022,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,After-hours,35.2,32.5,8.3,39.7,-11.3
+IM-02,2022-23,2023,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,After-hours,34.7,35.2,-1.4,39.7,-12.6
+IM-02,2023-24,2024,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,After-hours,31.8,34.7,-8.4,39.7,-19.9
+IM-02,2024-25,2025,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,After-hours,30.6,31.8,-3.8,39.7,-22.9
+IM-02,2017-18,2018,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,All-hours,80.6,,,80.6,0.0
+IM-02,2018-19,2019,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,All-hours,79.1,80.6,-1.9,80.6,-1.9
+IM-02,2019-20,2020,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,All-hours,70.8,79.1,-10.5,80.6,-12.2
+IM-02,2020-21,2021,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,All-hours,68.4,70.8,-3.4,80.6,-15.1
+IM-02,2021-22,2022,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,All-hours,72.9,68.4,6.6,80.6,-9.6
+IM-02,2022-23,2023,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,All-hours,71.0,72.9,-2.6,80.6,-11.9
+IM-02,2023-24,2024,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,All-hours,65.8,71.0,-7.3,80.6,-18.4
+IM-02,2024-25,2025,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,All-hours,63.7,65.8,-3.2,80.6,-21.0
+IM-02,2017-18,2018,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,In-hours,40.9,,,40.9,0.0
+IM-02,2018-19,2019,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,In-hours,40.0,40.9,-2.2,40.9,-2.2
+IM-02,2019-20,2020,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,In-hours,37.2,40.0,-7.0,40.9,-9.0
+IM-02,2020-21,2021,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,In-hours,35.9,37.2,-3.5,40.9,-12.2
+IM-02,2021-22,2022,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,In-hours,37.7,35.9,5.0,40.9,-7.8
+IM-02,2022-23,2023,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,In-hours,36.3,37.7,-3.7,40.9,-11.2
+IM-02,2023-24,2024,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,In-hours,34.0,36.3,-6.3,40.9,-16.9
+IM-02,2024-25,2025,PHN,PHN202,Eastern Melbourne,Metropolitan,False,False,In-hours,33.1,34.0,-2.6,40.9,-19.1
+IM-02,2017-18,2018,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,After-hours,39.1,,,39.1,0.0
+IM-02,2018-19,2019,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,After-hours,37.1,39.1,-5.1,39.1,-5.1
+IM-02,2019-20,2020,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,After-hours,32.0,37.1,-13.7,39.1,-18.2
+IM-02,2020-21,2021,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,After-hours,29.5,32.0,-7.8,39.1,-24.6
+IM-02,2021-22,2022,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,After-hours,32.0,29.5,8.5,39.1,-18.2
+IM-02,2022-23,2023,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,After-hours,31.8,32.0,-0.6,39.1,-18.7
+IM-02,2023-24,2024,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,After-hours,31.1,31.8,-2.2,39.1,-20.5
+IM-02,2024-25,2025,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,After-hours,30.7,31.1,-1.3,39.1,-21.5
+IM-02,2017-18,2018,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,All-hours,77.6,,,77.6,0.0
+IM-02,2018-19,2019,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,All-hours,74.2,77.6,-4.4,77.6,-4.4
+IM-02,2019-20,2020,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,All-hours,66.2,74.2,-10.8,77.6,-14.7
+IM-02,2020-21,2021,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,All-hours,61.9,66.2,-6.5,77.6,-20.2
+IM-02,2021-22,2022,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,All-hours,66.0,61.9,6.6,77.6,-14.9
+IM-02,2022-23,2023,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,All-hours,65.4,66.0,-0.9,77.6,-15.7
+IM-02,2023-24,2024,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,All-hours,64.4,65.4,-1.5,77.6,-17.0
+IM-02,2024-25,2025,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,All-hours,63.5,64.4,-1.4,77.6,-18.2
+IM-02,2017-18,2018,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,In-hours,38.5,,,38.5,0.0
+IM-02,2018-19,2019,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,In-hours,37.2,38.5,-3.4,38.5,-3.4
+IM-02,2019-20,2020,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,In-hours,34.2,37.2,-8.1,38.5,-11.2
+IM-02,2020-21,2021,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,In-hours,32.4,34.2,-5.3,38.5,-15.8
+IM-02,2021-22,2022,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,In-hours,34.0,32.4,4.9,38.5,-11.7
+IM-02,2022-23,2023,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,In-hours,33.6,34.0,-1.2,38.5,-12.7
+IM-02,2023-24,2024,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,In-hours,33.3,33.6,-0.9,38.5,-13.5
+IM-02,2024-25,2025,PHN,PHN203,South Eastern Melbourne,Metropolitan,False,False,In-hours,32.8,33.3,-1.5,38.5,-14.8
+IM-02,2017-18,2018,PHN,PHN204,Gippsland,Regional,False,True,After-hours,94.6,,,94.6,0.0
+IM-02,2018-19,2019,PHN,PHN204,Gippsland,Regional,False,True,After-hours,93.2,94.6,-1.5,94.6,-1.5
+IM-02,2019-20,2020,PHN,PHN204,Gippsland,Regional,False,True,After-hours,85.9,93.2,-7.8,94.6,-9.2
+IM-02,2020-21,2021,PHN,PHN204,Gippsland,Regional,False,True,After-hours,80.4,85.9,-6.4,94.6,-15.0
+IM-02,2021-22,2022,PHN,PHN204,Gippsland,Regional,False,True,After-hours,76.2,80.4,-5.2,94.6,-19.5
+IM-02,2022-23,2023,PHN,PHN204,Gippsland,Regional,False,True,After-hours,74.6,76.2,-2.1,94.6,-21.1
+IM-02,2023-24,2024,PHN,PHN204,Gippsland,Regional,False,True,After-hours,71.8,74.6,-3.8,94.6,-24.1
+IM-02,2024-25,2025,PHN,PHN204,Gippsland,Regional,False,True,After-hours,68.6,71.8,-4.5,94.6,-27.5
+IM-02,2017-18,2018,PHN,PHN204,Gippsland,Regional,False,True,All-hours,196.4,,,196.4,0.0
+IM-02,2018-19,2019,PHN,PHN204,Gippsland,Regional,False,True,All-hours,194.9,196.4,-0.8,196.4,-0.8
+IM-02,2019-20,2020,PHN,PHN204,Gippsland,Regional,False,True,All-hours,189.8,194.9,-2.6,196.4,-3.4
+IM-02,2020-21,2021,PHN,PHN204,Gippsland,Regional,False,True,All-hours,179.1,189.8,-5.6,196.4,-8.8
+IM-02,2021-22,2022,PHN,PHN204,Gippsland,Regional,False,True,All-hours,163.6,179.1,-8.7,196.4,-16.7
+IM-02,2022-23,2023,PHN,PHN204,Gippsland,Regional,False,True,All-hours,159.7,163.6,-2.4,196.4,-18.7
+IM-02,2023-24,2024,PHN,PHN204,Gippsland,Regional,False,True,All-hours,157.8,159.7,-1.2,196.4,-19.7
+IM-02,2024-25,2025,PHN,PHN204,Gippsland,Regional,False,True,All-hours,153.6,157.8,-2.7,196.4,-21.8
+IM-02,2017-18,2018,PHN,PHN204,Gippsland,Regional,False,True,In-hours,101.8,,,101.8,0.0
+IM-02,2018-19,2019,PHN,PHN204,Gippsland,Regional,False,True,In-hours,101.7,101.8,-0.1,101.8,-0.1
+IM-02,2019-20,2020,PHN,PHN204,Gippsland,Regional,False,True,In-hours,104.0,101.7,2.3,101.8,2.2
+IM-02,2020-21,2021,PHN,PHN204,Gippsland,Regional,False,True,In-hours,98.6,104.0,-5.2,101.8,-3.1
+IM-02,2021-22,2022,PHN,PHN204,Gippsland,Regional,False,True,In-hours,87.3,98.6,-11.5,101.8,-14.2
+IM-02,2022-23,2023,PHN,PHN204,Gippsland,Regional,False,True,In-hours,85.1,87.3,-2.5,101.8,-16.4
+IM-02,2023-24,2024,PHN,PHN204,Gippsland,Regional,False,True,In-hours,86.0,85.1,1.1,101.8,-15.5
+IM-02,2024-25,2025,PHN,PHN204,Gippsland,Regional,False,True,In-hours,84.9,86.0,-1.3,101.8,-16.6
+IM-02,2017-18,2018,PHN,PHN205,Murray,Regional,False,True,After-hours,85.8,,,85.8,0.0
+IM-02,2018-19,2019,PHN,PHN205,Murray,Regional,False,True,After-hours,86.1,85.8,0.3,85.8,0.3
+IM-02,2019-20,2020,PHN,PHN205,Murray,Regional,False,True,After-hours,76.9,86.1,-10.7,85.8,-10.4
+IM-02,2020-21,2021,PHN,PHN205,Murray,Regional,False,True,After-hours,71.8,76.9,-6.6,85.8,-16.3
+IM-02,2021-22,2022,PHN,PHN205,Murray,Regional,False,True,After-hours,74.1,71.8,3.2,85.8,-13.6
+IM-02,2022-23,2023,PHN,PHN205,Murray,Regional,False,True,After-hours,75.7,74.1,2.2,85.8,-11.8
+IM-02,2023-24,2024,PHN,PHN205,Murray,Regional,False,True,After-hours,70.6,75.7,-6.7,85.8,-17.7
+IM-02,2024-25,2025,PHN,PHN205,Murray,Regional,False,True,After-hours,68.0,70.6,-3.7,85.8,-20.7
+IM-02,2017-18,2018,PHN,PHN205,Murray,Regional,False,True,All-hours,181.7,,,181.7,0.0
+IM-02,2018-19,2019,PHN,PHN205,Murray,Regional,False,True,All-hours,183.7,181.7,1.1,181.7,1.1
+IM-02,2019-20,2020,PHN,PHN205,Murray,Regional,False,True,All-hours,164.7,183.7,-10.3,181.7,-9.4
+IM-02,2020-21,2021,PHN,PHN205,Murray,Regional,False,True,All-hours,161.3,164.7,-2.1,181.7,-11.2
+IM-02,2021-22,2022,PHN,PHN205,Murray,Regional,False,True,All-hours,162.1,161.3,0.5,181.7,-10.8
+IM-02,2022-23,2023,PHN,PHN205,Murray,Regional,False,True,All-hours,166.1,162.1,2.5,181.7,-8.6
+IM-02,2023-24,2024,PHN,PHN205,Murray,Regional,False,True,All-hours,157.1,166.1,-5.4,181.7,-13.5
+IM-02,2024-25,2025,PHN,PHN205,Murray,Regional,False,True,All-hours,150.8,157.1,-4.0,181.7,-17.0
+IM-02,2017-18,2018,PHN,PHN205,Murray,Regional,False,True,In-hours,95.9,,,95.9,0.0
+IM-02,2018-19,2019,PHN,PHN205,Murray,Regional,False,True,In-hours,97.6,95.9,1.8,95.9,1.8
+IM-02,2019-20,2020,PHN,PHN205,Murray,Regional,False,True,In-hours,87.8,97.6,-10.0,95.9,-8.4
+IM-02,2020-21,2021,PHN,PHN205,Murray,Regional,False,True,In-hours,89.5,87.8,1.9,95.9,-6.7
+IM-02,2021-22,2022,PHN,PHN205,Murray,Regional,False,True,In-hours,88.0,89.5,-1.7,95.9,-8.2
+IM-02,2022-23,2023,PHN,PHN205,Murray,Regional,False,True,In-hours,90.4,88.0,2.7,95.9,-5.7
+IM-02,2023-24,2024,PHN,PHN205,Murray,Regional,False,True,In-hours,86.5,90.4,-4.3,95.9,-9.8
+IM-02,2024-25,2025,PHN,PHN205,Murray,Regional,False,True,In-hours,82.8,86.5,-4.3,95.9,-13.7
+IM-02,2017-18,2018,PHN,PHN206,Western Victoria,Regional,True,True,After-hours,54.3,,,54.3,0.0
+IM-02,2018-19,2019,PHN,PHN206,Western Victoria,Regional,True,True,After-hours,51.9,54.3,-4.4,54.3,-4.4
+IM-02,2019-20,2020,PHN,PHN206,Western Victoria,Regional,True,True,After-hours,44.2,51.9,-14.8,54.3,-18.6
+IM-02,2020-21,2021,PHN,PHN206,Western Victoria,Regional,True,True,After-hours,43.1,44.2,-2.5,54.3,-20.6
+IM-02,2021-22,2022,PHN,PHN206,Western Victoria,Regional,True,True,After-hours,40.9,43.1,-5.1,54.3,-24.7
+IM-02,2022-23,2023,PHN,PHN206,Western Victoria,Regional,True,True,After-hours,38.6,40.9,-5.6,54.3,-28.9
+IM-02,2023-24,2024,PHN,PHN206,Western Victoria,Regional,True,True,After-hours,38.4,38.6,-0.5,54.3,-29.3
+IM-02,2024-25,2025,PHN,PHN206,Western Victoria,Regional,True,True,After-hours,38.3,38.4,-0.3,54.3,-29.5
+IM-02,2017-18,2018,PHN,PHN206,Western Victoria,Regional,True,True,All-hours,109.6,,,109.6,0.0
+IM-02,2018-19,2019,PHN,PHN206,Western Victoria,Regional,True,True,All-hours,105.9,109.6,-3.4,109.6,-3.4
+IM-02,2019-20,2020,PHN,PHN206,Western Victoria,Regional,True,True,All-hours,93.2,105.9,-12.0,109.6,-15.0
+IM-02,2020-21,2021,PHN,PHN206,Western Victoria,Regional,True,True,All-hours,93.2,93.2,0.0,109.6,-15.0
+IM-02,2021-22,2022,PHN,PHN206,Western Victoria,Regional,True,True,All-hours,87.1,93.2,-6.5,109.6,-20.5
+IM-02,2022-23,2023,PHN,PHN206,Western Victoria,Regional,True,True,All-hours,81.2,87.1,-6.8,109.6,-25.9
+IM-02,2023-24,2024,PHN,PHN206,Western Victoria,Regional,True,True,All-hours,82.1,81.2,1.1,109.6,-25.1
+IM-02,2024-25,2025,PHN,PHN206,Western Victoria,Regional,True,True,All-hours,83.6,82.1,1.8,109.6,-23.7
+IM-02,2017-18,2018,PHN,PHN206,Western Victoria,Regional,True,True,In-hours,55.3,,,55.3,0.0
+IM-02,2018-19,2019,PHN,PHN206,Western Victoria,Regional,True,True,In-hours,54.0,55.3,-2.4,55.3,-2.4
+IM-02,2019-20,2020,PHN,PHN206,Western Victoria,Regional,True,True,In-hours,49.0,54.0,-9.3,55.3,-11.4
+IM-02,2020-21,2021,PHN,PHN206,Western Victoria,Regional,True,True,In-hours,50.1,49.0,2.2,55.3,-9.4
+IM-02,2021-22,2022,PHN,PHN206,Western Victoria,Regional,True,True,In-hours,46.2,50.1,-7.8,55.3,-16.5
+IM-02,2022-23,2023,PHN,PHN206,Western Victoria,Regional,True,True,In-hours,42.6,46.2,-7.8,55.3,-23.0
+IM-02,2023-24,2024,PHN,PHN206,Western Victoria,Regional,True,True,In-hours,43.8,42.6,2.8,55.3,-20.8
+IM-02,2024-25,2025,PHN,PHN206,Western Victoria,Regional,True,True,In-hours,45.3,43.8,3.4,55.3,-18.1
+IM-02,2017-18,2018,PHN,PHN301,Brisbane North,Metropolitan,False,False,After-hours,41.1,,,41.1,0.0
+IM-02,2018-19,2019,PHN,PHN301,Brisbane North,Metropolitan,False,False,After-hours,40.7,41.1,-1.0,41.1,-1.0
+IM-02,2019-20,2020,PHN,PHN301,Brisbane North,Metropolitan,False,False,After-hours,40.9,40.7,0.5,41.1,-0.5
+IM-02,2020-21,2021,PHN,PHN301,Brisbane North,Metropolitan,False,False,After-hours,68.8,40.9,68.2,41.1,67.4
+IM-02,2021-22,2022,PHN,PHN301,Brisbane North,Metropolitan,False,False,After-hours,64.3,68.8,-6.5,41.1,56.4
+IM-02,2022-23,2023,PHN,PHN301,Brisbane North,Metropolitan,False,False,After-hours,41.0,64.3,-36.2,41.1,-0.2
+IM-02,2023-24,2024,PHN,PHN301,Brisbane North,Metropolitan,False,False,After-hours,37.3,41.0,-9.0,41.1,-9.2
+IM-02,2024-25,2025,PHN,PHN301,Brisbane North,Metropolitan,False,False,After-hours,35.0,37.3,-6.2,41.1,-14.8
+IM-02,2017-18,2018,PHN,PHN301,Brisbane North,Metropolitan,False,False,All-hours,84.7,,,84.7,0.0
+IM-02,2018-19,2019,PHN,PHN301,Brisbane North,Metropolitan,False,False,All-hours,83.5,84.7,-1.4,84.7,-1.4
+IM-02,2019-20,2020,PHN,PHN301,Brisbane North,Metropolitan,False,False,All-hours,96.3,83.5,15.3,84.7,13.7
+IM-02,2020-21,2021,PHN,PHN301,Brisbane North,Metropolitan,False,False,All-hours,186.0,96.3,93.1,84.7,119.6
+IM-02,2021-22,2022,PHN,PHN301,Brisbane North,Metropolitan,False,False,All-hours,155.2,186.0,-16.6,84.7,83.2
+IM-02,2022-23,2023,PHN,PHN301,Brisbane North,Metropolitan,False,False,All-hours,87.5,155.2,-43.6,84.7,3.3
+IM-02,2023-24,2024,PHN,PHN301,Brisbane North,Metropolitan,False,False,All-hours,79.9,87.5,-8.7,84.7,-5.7
+IM-02,2024-25,2025,PHN,PHN301,Brisbane North,Metropolitan,False,False,All-hours,74.9,79.9,-6.3,84.7,-11.6
+IM-02,2017-18,2018,PHN,PHN301,Brisbane North,Metropolitan,False,False,In-hours,43.6,,,43.6,0.0
+IM-02,2018-19,2019,PHN,PHN301,Brisbane North,Metropolitan,False,False,In-hours,42.8,43.6,-1.8,43.6,-1.8
+IM-02,2019-20,2020,PHN,PHN301,Brisbane North,Metropolitan,False,False,In-hours,55.4,42.8,29.4,43.6,27.1
+IM-02,2020-21,2021,PHN,PHN301,Brisbane North,Metropolitan,False,False,In-hours,117.2,55.4,111.6,43.6,168.8
+IM-02,2021-22,2022,PHN,PHN301,Brisbane North,Metropolitan,False,False,In-hours,90.9,117.2,-22.4,43.6,108.5
+IM-02,2022-23,2023,PHN,PHN301,Brisbane North,Metropolitan,False,False,In-hours,46.5,90.9,-48.8,43.6,6.7
+IM-02,2023-24,2024,PHN,PHN301,Brisbane North,Metropolitan,False,False,In-hours,42.6,46.5,-8.4,43.6,-2.3
+IM-02,2024-25,2025,PHN,PHN301,Brisbane North,Metropolitan,False,False,In-hours,40.0,42.6,-6.1,43.6,-8.3
+IM-02,2017-18,2018,PHN,PHN302,Brisbane South,Metropolitan,False,False,After-hours,35.8,,,35.8,0.0
+IM-02,2018-19,2019,PHN,PHN302,Brisbane South,Metropolitan,False,False,After-hours,34.6,35.8,-3.4,35.8,-3.4
+IM-02,2019-20,2020,PHN,PHN302,Brisbane South,Metropolitan,False,False,After-hours,32.9,34.6,-4.9,35.8,-8.1
+IM-02,2020-21,2021,PHN,PHN302,Brisbane South,Metropolitan,False,False,After-hours,38.5,32.9,17.0,35.8,7.5
+IM-02,2021-22,2022,PHN,PHN302,Brisbane South,Metropolitan,False,False,After-hours,38.2,38.5,-0.8,35.8,6.7
+IM-02,2022-23,2023,PHN,PHN302,Brisbane South,Metropolitan,False,False,After-hours,32.8,38.2,-14.1,35.8,-8.4
+IM-02,2023-24,2024,PHN,PHN302,Brisbane South,Metropolitan,False,False,After-hours,30.7,32.8,-6.4,35.8,-14.2
+IM-02,2024-25,2025,PHN,PHN302,Brisbane South,Metropolitan,False,False,After-hours,27.2,30.7,-11.4,35.8,-24.0
+IM-02,2017-18,2018,PHN,PHN302,Brisbane South,Metropolitan,False,False,All-hours,75.0,,,75.0,0.0
+IM-02,2018-19,2019,PHN,PHN302,Brisbane South,Metropolitan,False,False,All-hours,72.6,75.0,-3.2,75.0,-3.2
+IM-02,2019-20,2020,PHN,PHN302,Brisbane South,Metropolitan,False,False,All-hours,72.3,72.6,-0.4,75.0,-3.6
+IM-02,2020-21,2021,PHN,PHN302,Brisbane South,Metropolitan,False,False,All-hours,84.8,72.3,17.3,75.0,13.1
+IM-02,2021-22,2022,PHN,PHN302,Brisbane South,Metropolitan,False,False,All-hours,83.7,84.8,-1.3,75.0,11.6
+IM-02,2022-23,2023,PHN,PHN302,Brisbane South,Metropolitan,False,False,All-hours,71.5,83.7,-14.6,75.0,-4.7
+IM-02,2023-24,2024,PHN,PHN302,Brisbane South,Metropolitan,False,False,All-hours,66.0,71.5,-7.7,75.0,-12.0
+IM-02,2024-25,2025,PHN,PHN302,Brisbane South,Metropolitan,False,False,All-hours,59.2,66.0,-10.3,75.0,-21.1
+IM-02,2017-18,2018,PHN,PHN302,Brisbane South,Metropolitan,False,False,In-hours,39.1,,,39.1,0.0
+IM-02,2018-19,2019,PHN,PHN302,Brisbane South,Metropolitan,False,False,In-hours,38.0,39.1,-2.8,39.1,-2.8
+IM-02,2019-20,2020,PHN,PHN302,Brisbane South,Metropolitan,False,False,In-hours,39.5,38.0,3.9,39.1,1.0
+IM-02,2020-21,2021,PHN,PHN302,Brisbane South,Metropolitan,False,False,In-hours,46.4,39.5,17.5,39.1,18.7
+IM-02,2021-22,2022,PHN,PHN302,Brisbane South,Metropolitan,False,False,In-hours,45.5,46.4,-1.9,39.1,16.4
+IM-02,2022-23,2023,PHN,PHN302,Brisbane South,Metropolitan,False,False,In-hours,38.7,45.5,-14.9,39.1,-1.0
+IM-02,2023-24,2024,PHN,PHN302,Brisbane South,Metropolitan,False,False,In-hours,35.3,38.7,-8.8,39.1,-9.7
+IM-02,2024-25,2025,PHN,PHN302,Brisbane South,Metropolitan,False,False,In-hours,32.0,35.3,-9.3,39.1,-18.2
+IM-02,2017-18,2018,PHN,PHN303,Gold Coast,Metropolitan,False,False,After-hours,32.7,,,32.7,0.0
+IM-02,2018-19,2019,PHN,PHN303,Gold Coast,Metropolitan,False,False,After-hours,32.5,32.7,-0.6,32.7,-0.6
+IM-02,2019-20,2020,PHN,PHN303,Gold Coast,Metropolitan,False,False,After-hours,33.5,32.5,3.1,32.7,2.4
+IM-02,2020-21,2021,PHN,PHN303,Gold Coast,Metropolitan,False,False,After-hours,56.7,33.5,69.3,32.7,73.4
+IM-02,2021-22,2022,PHN,PHN303,Gold Coast,Metropolitan,False,False,After-hours,57.7,56.7,1.8,32.7,76.5
+IM-02,2022-23,2023,PHN,PHN303,Gold Coast,Metropolitan,False,False,After-hours,26.7,57.7,-53.7,32.7,-18.3
+IM-02,2023-24,2024,PHN,PHN303,Gold Coast,Metropolitan,False,False,After-hours,25.6,26.7,-4.1,32.7,-21.7
+IM-02,2024-25,2025,PHN,PHN303,Gold Coast,Metropolitan,False,False,After-hours,24.3,25.6,-5.1,32.7,-25.7
+IM-02,2017-18,2018,PHN,PHN303,Gold Coast,Metropolitan,False,False,All-hours,71.9,,,71.9,0.0
+IM-02,2018-19,2019,PHN,PHN303,Gold Coast,Metropolitan,False,False,All-hours,71.2,71.9,-1.0,71.9,-1.0
+IM-02,2019-20,2020,PHN,PHN303,Gold Coast,Metropolitan,False,False,All-hours,90.0,71.2,26.4,71.9,25.2
+IM-02,2020-21,2021,PHN,PHN303,Gold Coast,Metropolitan,False,False,All-hours,182.1,90.0,102.3,71.9,153.3
+IM-02,2021-22,2022,PHN,PHN303,Gold Coast,Metropolitan,False,False,All-hours,168.1,182.1,-7.7,71.9,133.8
+IM-02,2022-23,2023,PHN,PHN303,Gold Coast,Metropolitan,False,False,All-hours,60.4,168.1,-64.1,71.9,-16.0
+IM-02,2023-24,2024,PHN,PHN303,Gold Coast,Metropolitan,False,False,All-hours,56.6,60.4,-6.3,71.9,-21.3
+IM-02,2024-25,2025,PHN,PHN303,Gold Coast,Metropolitan,False,False,All-hours,53.8,56.6,-4.9,71.9,-25.2
+IM-02,2017-18,2018,PHN,PHN303,Gold Coast,Metropolitan,False,False,In-hours,39.2,,,39.2,0.0
+IM-02,2018-19,2019,PHN,PHN303,Gold Coast,Metropolitan,False,False,In-hours,38.7,39.2,-1.3,39.2,-1.3
+IM-02,2019-20,2020,PHN,PHN303,Gold Coast,Metropolitan,False,False,In-hours,56.5,38.7,46.0,39.2,44.1
+IM-02,2020-21,2021,PHN,PHN303,Gold Coast,Metropolitan,False,False,In-hours,125.4,56.5,121.9,39.2,219.9
+IM-02,2021-22,2022,PHN,PHN303,Gold Coast,Metropolitan,False,False,In-hours,110.4,125.4,-12.0,39.2,181.6
+IM-02,2022-23,2023,PHN,PHN303,Gold Coast,Metropolitan,False,False,In-hours,33.7,110.4,-69.5,39.2,-14.0
+IM-02,2023-24,2024,PHN,PHN303,Gold Coast,Metropolitan,False,False,In-hours,31.0,33.7,-8.0,39.2,-20.9
+IM-02,2024-25,2025,PHN,PHN303,Gold Coast,Metropolitan,False,False,In-hours,29.5,31.0,-4.8,39.2,-24.7
+IM-02,2017-18,2018,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,After-hours,27.9,,,27.9,0.0
+IM-02,2018-19,2019,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,After-hours,26.5,27.9,-5.0,27.9,-5.0
+IM-02,2019-20,2020,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,After-hours,22.5,26.5,-15.1,27.9,-19.4
+IM-02,2020-21,2021,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,After-hours,24.2,22.5,7.6,27.9,-13.3
+IM-02,2021-22,2022,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,After-hours,23.0,24.2,-5.0,27.9,-17.6
+IM-02,2022-23,2023,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,After-hours,23.1,23.0,0.4,27.9,-17.2
+IM-02,2023-24,2024,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,After-hours,19.9,23.1,-13.9,27.9,-28.7
+IM-02,2024-25,2025,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,After-hours,17.4,19.9,-12.6,27.9,-37.6
+IM-02,2017-18,2018,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,All-hours,56.6,,,56.6,0.0
+IM-02,2018-19,2019,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,All-hours,54.2,56.6,-4.2,56.6,-4.2
+IM-02,2019-20,2020,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,All-hours,48.9,54.2,-9.8,56.6,-13.6
+IM-02,2020-21,2021,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,All-hours,53.0,48.9,8.4,56.6,-6.4
+IM-02,2021-22,2022,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,All-hours,50.8,53.0,-4.2,56.6,-10.2
+IM-02,2022-23,2023,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,All-hours,49.8,50.8,-2.0,56.6,-12.0
+IM-02,2023-24,2024,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,All-hours,42.8,49.8,-14.1,56.6,-24.4
+IM-02,2024-25,2025,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,All-hours,36.4,42.8,-15.0,56.6,-35.7
+IM-02,2017-18,2018,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,In-hours,28.8,,,28.8,0.0
+IM-02,2018-19,2019,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,In-hours,27.7,28.8,-3.8,28.8,-3.8
+IM-02,2019-20,2020,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,In-hours,26.4,27.7,-4.7,28.8,-8.3
+IM-02,2020-21,2021,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,In-hours,28.8,26.4,9.1,28.8,0.0
+IM-02,2021-22,2022,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,In-hours,27.8,28.8,-3.5,28.8,-3.5
+IM-02,2022-23,2023,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,In-hours,26.8,27.8,-3.6,28.8,-6.9
+IM-02,2023-24,2024,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,In-hours,22.9,26.8,-14.6,28.8,-20.5
+IM-02,2024-25,2025,PHN,PHN304,Darling Downs and West Moreton,Regional,False,False,In-hours,19.1,22.9,-16.6,28.8,-33.7
+IM-02,2017-18,2018,PHN,PHN305,Western Queensland,Regional,False,False,After-hours,88.3,,,88.3,0.0
+IM-02,2018-19,2019,PHN,PHN305,Western Queensland,Regional,False,False,After-hours,88.9,88.3,0.7,88.3,0.7
+IM-02,2019-20,2020,PHN,PHN305,Western Queensland,Regional,False,False,After-hours,89.2,88.9,0.3,88.3,1.0
+IM-02,2020-21,2021,PHN,PHN305,Western Queensland,Regional,False,False,After-hours,98.1,89.2,10.0,88.3,11.1
+IM-02,2021-22,2022,PHN,PHN305,Western Queensland,Regional,False,False,After-hours,92.3,98.1,-5.9,88.3,4.5
+IM-02,2022-23,2023,PHN,PHN305,Western Queensland,Regional,False,False,After-hours,91.0,92.3,-1.4,88.3,3.1
+IM-02,2023-24,2024,PHN,PHN305,Western Queensland,Regional,False,False,After-hours,100.0,91.0,9.9,88.3,13.3
+IM-02,2024-25,2025,PHN,PHN305,Western Queensland,Regional,False,False,After-hours,102.0,100.0,2.0,88.3,15.5
+IM-02,2017-18,2018,PHN,PHN305,Western Queensland,Regional,False,False,All-hours,210.2,,,210.2,0.0
+IM-02,2018-19,2019,PHN,PHN305,Western Queensland,Regional,False,False,All-hours,223.1,210.2,6.1,210.2,6.1
+IM-02,2019-20,2020,PHN,PHN305,Western Queensland,Regional,False,False,All-hours,233.9,223.1,4.8,210.2,11.3
+IM-02,2020-21,2021,PHN,PHN305,Western Queensland,Regional,False,False,All-hours,269.6,233.9,15.3,210.2,28.3
+IM-02,2021-22,2022,PHN,PHN305,Western Queensland,Regional,False,False,All-hours,244.5,269.6,-9.3,210.2,16.3
+IM-02,2022-23,2023,PHN,PHN305,Western Queensland,Regional,False,False,All-hours,226.3,244.5,-7.4,210.2,7.7
+IM-02,2023-24,2024,PHN,PHN305,Western Queensland,Regional,False,False,All-hours,255.2,226.3,12.8,210.2,21.4
+IM-02,2024-25,2025,PHN,PHN305,Western Queensland,Regional,False,False,All-hours,263.7,255.2,3.3,210.2,25.5
+IM-02,2017-18,2018,PHN,PHN305,Western Queensland,Regional,False,False,In-hours,122.0,,,122.0,0.0
+IM-02,2018-19,2019,PHN,PHN305,Western Queensland,Regional,False,False,In-hours,134.2,122.0,10.0,122.0,10.0
+IM-02,2019-20,2020,PHN,PHN305,Western Queensland,Regional,False,False,In-hours,144.8,134.2,7.9,122.0,18.7
+IM-02,2020-21,2021,PHN,PHN305,Western Queensland,Regional,False,False,In-hours,171.5,144.8,18.4,122.0,40.6
+IM-02,2021-22,2022,PHN,PHN305,Western Queensland,Regional,False,False,In-hours,152.2,171.5,-11.3,122.0,24.8
+IM-02,2022-23,2023,PHN,PHN305,Western Queensland,Regional,False,False,In-hours,135.3,152.2,-11.1,122.0,10.9
+IM-02,2023-24,2024,PHN,PHN305,Western Queensland,Regional,False,False,In-hours,155.2,135.3,14.7,122.0,27.2
+IM-02,2024-25,2025,PHN,PHN305,Western Queensland,Regional,False,False,In-hours,161.7,155.2,4.2,122.0,32.5
+IM-02,2017-18,2018,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,After-hours,56.9,,,56.9,0.0
+IM-02,2018-19,2019,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,After-hours,54.6,56.9,-4.0,56.9,-4.0
+IM-02,2019-20,2020,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,After-hours,52.9,54.6,-3.1,56.9,-7.0
+IM-02,2020-21,2021,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,After-hours,57.1,52.9,7.9,56.9,0.4
+IM-02,2021-22,2022,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,After-hours,57.0,57.1,-0.2,56.9,0.2
+IM-02,2022-23,2023,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,After-hours,52.5,57.0,-7.9,56.9,-7.7
+IM-02,2023-24,2024,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,After-hours,52.1,52.5,-0.8,56.9,-8.4
+IM-02,2024-25,2025,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,After-hours,48.9,52.1,-6.1,56.9,-14.1
+IM-02,2017-18,2018,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,All-hours,125.2,,,125.2,0.0
+IM-02,2018-19,2019,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,All-hours,123.0,125.2,-1.8,125.2,-1.8
+IM-02,2019-20,2020,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,All-hours,123.5,123.0,0.4,125.2,-1.4
+IM-02,2020-21,2021,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,All-hours,134.2,123.5,8.7,125.2,7.2
+IM-02,2021-22,2022,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,All-hours,131.3,134.2,-2.2,125.2,4.9
+IM-02,2022-23,2023,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,All-hours,119.7,131.3,-8.8,125.2,-4.4
+IM-02,2023-24,2024,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,All-hours,119.9,119.7,0.2,125.2,-4.2
+IM-02,2024-25,2025,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,All-hours,111.2,119.9,-7.3,125.2,-11.2
+IM-02,2017-18,2018,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,In-hours,68.4,,,68.4,0.0
+IM-02,2018-19,2019,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,In-hours,68.5,68.4,0.1,68.4,0.1
+IM-02,2019-20,2020,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,In-hours,70.6,68.5,3.1,68.4,3.2
+IM-02,2020-21,2021,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,In-hours,77.1,70.6,9.2,68.4,12.7
+IM-02,2021-22,2022,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,In-hours,74.3,77.1,-3.6,68.4,8.6
+IM-02,2022-23,2023,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,In-hours,67.2,74.3,-9.6,68.4,-1.8
+IM-02,2023-24,2024,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,In-hours,67.8,67.2,0.9,68.4,-0.9
+IM-02,2024-25,2025,PHN,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",Regional,False,False,In-hours,62.3,67.8,-8.1,68.4,-8.9
+IM-02,2017-18,2018,PHN,PHN307,Northern Queensland,Regional,False,False,After-hours,33.7,,,33.7,0.0
+IM-02,2018-19,2019,PHN,PHN307,Northern Queensland,Regional,False,False,After-hours,36.2,33.7,7.4,33.7,7.4
+IM-02,2019-20,2020,PHN,PHN307,Northern Queensland,Regional,False,False,After-hours,33.6,36.2,-7.2,33.7,-0.3
+IM-02,2020-21,2021,PHN,PHN307,Northern Queensland,Regional,False,False,After-hours,38.4,33.6,14.3,33.7,13.9
+IM-02,2021-22,2022,PHN,PHN307,Northern Queensland,Regional,False,False,After-hours,37.3,38.4,-2.9,33.7,10.7
+IM-02,2022-23,2023,PHN,PHN307,Northern Queensland,Regional,False,False,After-hours,35.0,37.3,-6.2,33.7,3.9
+IM-02,2023-24,2024,PHN,PHN307,Northern Queensland,Regional,False,False,After-hours,33.9,35.0,-3.1,33.7,0.6
+IM-02,2024-25,2025,PHN,PHN307,Northern Queensland,Regional,False,False,After-hours,31.4,33.9,-7.4,33.7,-6.8
+IM-02,2017-18,2018,PHN,PHN307,Northern Queensland,Regional,False,False,All-hours,71.1,,,71.1,0.0
+IM-02,2018-19,2019,PHN,PHN307,Northern Queensland,Regional,False,False,All-hours,76.2,71.1,7.2,71.1,7.2
+IM-02,2019-20,2020,PHN,PHN307,Northern Queensland,Regional,False,False,All-hours,73.5,76.2,-3.5,71.1,3.4
+IM-02,2020-21,2021,PHN,PHN307,Northern Queensland,Regional,False,False,All-hours,83.4,73.5,13.5,71.1,17.3
+IM-02,2021-22,2022,PHN,PHN307,Northern Queensland,Regional,False,False,All-hours,80.8,83.4,-3.1,71.1,13.6
+IM-02,2022-23,2023,PHN,PHN307,Northern Queensland,Regional,False,False,All-hours,76.3,80.8,-5.6,71.1,7.3
+IM-02,2023-24,2024,PHN,PHN307,Northern Queensland,Regional,False,False,All-hours,74.1,76.3,-2.9,71.1,4.2
+IM-02,2024-25,2025,PHN,PHN307,Northern Queensland,Regional,False,False,All-hours,68.4,74.1,-7.7,71.1,-3.8
+IM-02,2017-18,2018,PHN,PHN307,Northern Queensland,Regional,False,False,In-hours,37.4,,,37.4,0.0
+IM-02,2018-19,2019,PHN,PHN307,Northern Queensland,Regional,False,False,In-hours,40.0,37.4,7.0,37.4,7.0
+IM-02,2019-20,2020,PHN,PHN307,Northern Queensland,Regional,False,False,In-hours,40.0,40.0,0.0,37.4,7.0
+IM-02,2020-21,2021,PHN,PHN307,Northern Queensland,Regional,False,False,In-hours,45.0,40.0,12.5,37.4,20.3
+IM-02,2021-22,2022,PHN,PHN307,Northern Queensland,Regional,False,False,In-hours,43.4,45.0,-3.6,37.4,16.0
+IM-02,2022-23,2023,PHN,PHN307,Northern Queensland,Regional,False,False,In-hours,41.2,43.4,-5.1,37.4,10.2
+IM-02,2023-24,2024,PHN,PHN307,Northern Queensland,Regional,False,False,In-hours,40.2,41.2,-2.4,37.4,7.5
+IM-02,2024-25,2025,PHN,PHN307,Northern Queensland,Regional,False,False,In-hours,37.1,40.2,-7.7,37.4,-0.8
+IM-02,2017-18,2018,PHN,PHN401,Adelaide,Metropolitan,False,False,After-hours,43.9,,,43.9,0.0
+IM-02,2018-19,2019,PHN,PHN401,Adelaide,Metropolitan,False,False,After-hours,43.7,43.9,-0.5,43.9,-0.5
+IM-02,2019-20,2020,PHN,PHN401,Adelaide,Metropolitan,False,False,After-hours,38.9,43.7,-11.0,43.9,-11.4
+IM-02,2020-21,2021,PHN,PHN401,Adelaide,Metropolitan,False,False,After-hours,44.4,38.9,14.1,43.9,1.1
+IM-02,2021-22,2022,PHN,PHN401,Adelaide,Metropolitan,False,False,After-hours,41.5,44.4,-6.5,43.9,-5.5
+IM-02,2022-23,2023,PHN,PHN401,Adelaide,Metropolitan,False,False,After-hours,41.5,41.5,0.0,43.9,-5.5
+IM-02,2023-24,2024,PHN,PHN401,Adelaide,Metropolitan,False,False,After-hours,38.9,41.5,-6.3,43.9,-11.4
+IM-02,2024-25,2025,PHN,PHN401,Adelaide,Metropolitan,False,False,After-hours,39.3,38.9,1.0,43.9,-10.5
+IM-02,2017-18,2018,PHN,PHN401,Adelaide,Metropolitan,False,False,All-hours,89.1,,,89.1,0.0
+IM-02,2018-19,2019,PHN,PHN401,Adelaide,Metropolitan,False,False,All-hours,89.6,89.1,0.6,89.1,0.6
+IM-02,2019-20,2020,PHN,PHN401,Adelaide,Metropolitan,False,False,All-hours,81.0,89.6,-9.6,89.1,-9.1
+IM-02,2020-21,2021,PHN,PHN401,Adelaide,Metropolitan,False,False,All-hours,92.8,81.0,14.6,89.1,4.2
+IM-02,2021-22,2022,PHN,PHN401,Adelaide,Metropolitan,False,False,All-hours,85.8,92.8,-7.5,89.1,-3.7
+IM-02,2022-23,2023,PHN,PHN401,Adelaide,Metropolitan,False,False,All-hours,85.6,85.8,-0.2,89.1,-3.9
+IM-02,2023-24,2024,PHN,PHN401,Adelaide,Metropolitan,False,False,All-hours,81.0,85.6,-5.4,89.1,-9.1
+IM-02,2024-25,2025,PHN,PHN401,Adelaide,Metropolitan,False,False,All-hours,81.5,81.0,0.6,89.1,-8.5
+IM-02,2017-18,2018,PHN,PHN401,Adelaide,Metropolitan,False,False,In-hours,45.2,,,45.2,0.0
+IM-02,2018-19,2019,PHN,PHN401,Adelaide,Metropolitan,False,False,In-hours,45.8,45.2,1.3,45.2,1.3
+IM-02,2019-20,2020,PHN,PHN401,Adelaide,Metropolitan,False,False,In-hours,42.1,45.8,-8.1,45.2,-6.9
+IM-02,2020-21,2021,PHN,PHN401,Adelaide,Metropolitan,False,False,In-hours,48.4,42.1,15.0,45.2,7.1
+IM-02,2021-22,2022,PHN,PHN401,Adelaide,Metropolitan,False,False,In-hours,44.3,48.4,-8.5,45.2,-2.0
+IM-02,2022-23,2023,PHN,PHN401,Adelaide,Metropolitan,False,False,In-hours,44.2,44.3,-0.2,45.2,-2.2
+IM-02,2023-24,2024,PHN,PHN401,Adelaide,Metropolitan,False,False,In-hours,42.0,44.2,-5.0,45.2,-7.1
+IM-02,2024-25,2025,PHN,PHN401,Adelaide,Metropolitan,False,False,In-hours,42.2,42.0,0.5,45.2,-6.6
+IM-02,2017-18,2018,PHN,PHN402,Country SA,Regional,False,False,After-hours,59.6,,,59.6,0.0
+IM-02,2018-19,2019,PHN,PHN402,Country SA,Regional,False,False,After-hours,56.9,59.6,-4.5,59.6,-4.5
+IM-02,2019-20,2020,PHN,PHN402,Country SA,Regional,False,False,After-hours,64.8,56.9,13.9,59.6,8.7
+IM-02,2020-21,2021,PHN,PHN402,Country SA,Regional,False,False,After-hours,68.9,64.8,6.3,59.6,15.6
+IM-02,2021-22,2022,PHN,PHN402,Country SA,Regional,False,False,After-hours,70.2,68.9,1.9,59.6,17.8
+IM-02,2022-23,2023,PHN,PHN402,Country SA,Regional,False,False,After-hours,73.7,70.2,5.0,59.6,23.7
+IM-02,2023-24,2024,PHN,PHN402,Country SA,Regional,False,False,After-hours,73.3,73.7,-0.5,59.6,23.0
+IM-02,2024-25,2025,PHN,PHN402,Country SA,Regional,False,False,After-hours,70.3,73.3,-4.1,59.6,18.0
+IM-02,2017-18,2018,PHN,PHN402,Country SA,Regional,False,False,All-hours,114.2,,,114.2,0.0
+IM-02,2018-19,2019,PHN,PHN402,Country SA,Regional,False,False,All-hours,111.9,114.2,-2.0,114.2,-2.0
+IM-02,2019-20,2020,PHN,PHN402,Country SA,Regional,False,False,All-hours,126.7,111.9,13.2,114.2,10.9
+IM-02,2020-21,2021,PHN,PHN402,Country SA,Regional,False,False,All-hours,142.5,126.7,12.5,114.2,24.8
+IM-02,2021-22,2022,PHN,PHN402,Country SA,Regional,False,False,All-hours,153.3,142.5,7.6,114.2,34.2
+IM-02,2022-23,2023,PHN,PHN402,Country SA,Regional,False,False,All-hours,163.8,153.3,6.8,114.2,43.4
+IM-02,2023-24,2024,PHN,PHN402,Country SA,Regional,False,False,All-hours,163.2,163.8,-0.4,114.2,42.9
+IM-02,2024-25,2025,PHN,PHN402,Country SA,Regional,False,False,All-hours,160.9,163.2,-1.4,114.2,40.9
+IM-02,2017-18,2018,PHN,PHN402,Country SA,Regional,False,False,In-hours,54.6,,,54.6,0.0
+IM-02,2018-19,2019,PHN,PHN402,Country SA,Regional,False,False,In-hours,55.0,54.6,0.7,54.6,0.7
+IM-02,2019-20,2020,PHN,PHN402,Country SA,Regional,False,False,In-hours,61.9,55.0,12.5,54.6,13.4
+IM-02,2020-21,2021,PHN,PHN402,Country SA,Regional,False,False,In-hours,73.6,61.9,18.9,54.6,34.8
+IM-02,2021-22,2022,PHN,PHN402,Country SA,Regional,False,False,In-hours,83.1,73.6,12.9,54.6,52.2
+IM-02,2022-23,2023,PHN,PHN402,Country SA,Regional,False,False,In-hours,90.1,83.1,8.4,54.6,65.0
+IM-02,2023-24,2024,PHN,PHN402,Country SA,Regional,False,False,In-hours,90.0,90.1,-0.1,54.6,64.8
+IM-02,2024-25,2025,PHN,PHN402,Country SA,Regional,False,False,In-hours,90.6,90.0,0.7,54.6,65.9
+IM-02,2017-18,2018,PHN,PHN501,Perth North,Metropolitan,False,False,After-hours,48.6,,,48.6,0.0
+IM-02,2018-19,2019,PHN,PHN501,Perth North,Metropolitan,False,False,After-hours,52.3,48.6,7.6,48.6,7.6
+IM-02,2019-20,2020,PHN,PHN501,Perth North,Metropolitan,False,False,After-hours,47.4,52.3,-9.4,48.6,-2.5
+IM-02,2020-21,2021,PHN,PHN501,Perth North,Metropolitan,False,False,After-hours,50.4,47.4,6.3,48.6,3.7
+IM-02,2021-22,2022,PHN,PHN501,Perth North,Metropolitan,False,False,After-hours,45.7,50.4,-9.3,48.6,-6.0
+IM-02,2022-23,2023,PHN,PHN501,Perth North,Metropolitan,False,False,After-hours,41.3,45.7,-9.6,48.6,-15.0
+IM-02,2023-24,2024,PHN,PHN501,Perth North,Metropolitan,False,False,After-hours,38.2,41.3,-7.5,48.6,-21.4
+IM-02,2024-25,2025,PHN,PHN501,Perth North,Metropolitan,False,False,After-hours,35.2,38.2,-7.9,48.6,-27.6
+IM-02,2017-18,2018,PHN,PHN501,Perth North,Metropolitan,False,False,All-hours,102.4,,,102.4,0.0
+IM-02,2018-19,2019,PHN,PHN501,Perth North,Metropolitan,False,False,All-hours,108.7,102.4,6.2,102.4,6.2
+IM-02,2019-20,2020,PHN,PHN501,Perth North,Metropolitan,False,False,All-hours,101.4,108.7,-6.7,102.4,-1.0
+IM-02,2020-21,2021,PHN,PHN501,Perth North,Metropolitan,False,False,All-hours,107.7,101.4,6.2,102.4,5.2
+IM-02,2021-22,2022,PHN,PHN501,Perth North,Metropolitan,False,False,All-hours,96.9,107.7,-10.0,102.4,-5.4
+IM-02,2022-23,2023,PHN,PHN501,Perth North,Metropolitan,False,False,All-hours,88.8,96.9,-8.4,102.4,-13.3
+IM-02,2023-24,2024,PHN,PHN501,Perth North,Metropolitan,False,False,All-hours,82.2,88.8,-7.4,102.4,-19.7
+IM-02,2024-25,2025,PHN,PHN501,Perth North,Metropolitan,False,False,All-hours,77.2,82.2,-6.1,102.4,-24.6
+IM-02,2017-18,2018,PHN,PHN501,Perth North,Metropolitan,False,False,In-hours,53.8,,,53.8,0.0
+IM-02,2018-19,2019,PHN,PHN501,Perth North,Metropolitan,False,False,In-hours,56.4,53.8,4.8,53.8,4.8
+IM-02,2019-20,2020,PHN,PHN501,Perth North,Metropolitan,False,False,In-hours,54.0,56.4,-4.3,53.8,0.4
+IM-02,2020-21,2021,PHN,PHN501,Perth North,Metropolitan,False,False,In-hours,57.3,54.0,6.1,53.8,6.5
+IM-02,2021-22,2022,PHN,PHN501,Perth North,Metropolitan,False,False,In-hours,51.1,57.3,-10.8,53.8,-5.0
+IM-02,2022-23,2023,PHN,PHN501,Perth North,Metropolitan,False,False,In-hours,47.5,51.1,-7.0,53.8,-11.7
+IM-02,2023-24,2024,PHN,PHN501,Perth North,Metropolitan,False,False,In-hours,44.1,47.5,-7.2,53.8,-18.0
+IM-02,2024-25,2025,PHN,PHN501,Perth North,Metropolitan,False,False,In-hours,42.1,44.1,-4.5,53.8,-21.7
+IM-02,2017-18,2018,PHN,PHN502,Perth South,Metropolitan,False,False,After-hours,56.9,,,56.9,0.0
+IM-02,2018-19,2019,PHN,PHN502,Perth South,Metropolitan,False,False,After-hours,57.8,56.9,1.6,56.9,1.6
+IM-02,2019-20,2020,PHN,PHN502,Perth South,Metropolitan,False,False,After-hours,53.0,57.8,-8.3,56.9,-6.9
+IM-02,2020-21,2021,PHN,PHN502,Perth South,Metropolitan,False,False,After-hours,55.9,53.0,5.5,56.9,-1.8
+IM-02,2021-22,2022,PHN,PHN502,Perth South,Metropolitan,False,False,After-hours,54.7,55.9,-2.1,56.9,-3.9
+IM-02,2022-23,2023,PHN,PHN502,Perth South,Metropolitan,False,False,After-hours,49.7,54.7,-9.1,56.9,-12.7
+IM-02,2023-24,2024,PHN,PHN502,Perth South,Metropolitan,False,False,After-hours,47.3,49.7,-4.8,56.9,-16.9
+IM-02,2024-25,2025,PHN,PHN502,Perth South,Metropolitan,False,False,After-hours,44.0,47.3,-7.0,56.9,-22.7
+IM-02,2017-18,2018,PHN,PHN502,Perth South,Metropolitan,False,False,All-hours,118.3,,,118.3,0.0
+IM-02,2018-19,2019,PHN,PHN502,Perth South,Metropolitan,False,False,All-hours,120.8,118.3,2.1,118.3,2.1
+IM-02,2019-20,2020,PHN,PHN502,Perth South,Metropolitan,False,False,All-hours,111.8,120.8,-7.5,118.3,-5.5
+IM-02,2020-21,2021,PHN,PHN502,Perth South,Metropolitan,False,False,All-hours,119.8,111.8,7.2,118.3,1.3
+IM-02,2021-22,2022,PHN,PHN502,Perth South,Metropolitan,False,False,All-hours,117.0,119.8,-2.3,118.3,-1.1
+IM-02,2022-23,2023,PHN,PHN502,Perth South,Metropolitan,False,False,All-hours,107.9,117.0,-7.8,118.3,-8.8
+IM-02,2023-24,2024,PHN,PHN502,Perth South,Metropolitan,False,False,All-hours,101.9,107.9,-5.6,118.3,-13.9
+IM-02,2024-25,2025,PHN,PHN502,Perth South,Metropolitan,False,False,All-hours,95.5,101.9,-6.3,118.3,-19.3
+IM-02,2017-18,2018,PHN,PHN502,Perth South,Metropolitan,False,False,In-hours,61.4,,,61.4,0.0
+IM-02,2018-19,2019,PHN,PHN502,Perth South,Metropolitan,False,False,In-hours,62.9,61.4,2.4,61.4,2.4
+IM-02,2019-20,2020,PHN,PHN502,Perth South,Metropolitan,False,False,In-hours,58.8,62.9,-6.5,61.4,-4.2
+IM-02,2020-21,2021,PHN,PHN502,Perth South,Metropolitan,False,False,In-hours,63.9,58.8,8.7,61.4,4.1
+IM-02,2021-22,2022,PHN,PHN502,Perth South,Metropolitan,False,False,In-hours,62.3,63.9,-2.5,61.4,1.5
+IM-02,2022-23,2023,PHN,PHN502,Perth South,Metropolitan,False,False,In-hours,58.2,62.3,-6.6,61.4,-5.2
+IM-02,2023-24,2024,PHN,PHN502,Perth South,Metropolitan,False,False,In-hours,54.6,58.2,-6.2,61.4,-11.1
+IM-02,2024-25,2025,PHN,PHN502,Perth South,Metropolitan,False,False,In-hours,51.5,54.6,-5.7,61.4,-16.1
+IM-02,2017-18,2018,PHN,PHN503,Country WA,Regional,False,False,After-hours,88.0,,,88.0,0.0
+IM-02,2018-19,2019,PHN,PHN503,Country WA,Regional,False,False,After-hours,113.3,88.0,28.7,88.0,28.7
+IM-02,2019-20,2020,PHN,PHN503,Country WA,Regional,False,False,After-hours,110.6,113.3,-2.4,88.0,25.7
+IM-02,2020-21,2021,PHN,PHN503,Country WA,Regional,False,False,After-hours,114.5,110.6,3.5,88.0,30.1
+IM-02,2021-22,2022,PHN,PHN503,Country WA,Regional,False,False,After-hours,111.4,114.5,-2.7,88.0,26.6
+IM-02,2022-23,2023,PHN,PHN503,Country WA,Regional,False,False,After-hours,110.2,111.4,-1.1,88.0,25.2
+IM-02,2023-24,2024,PHN,PHN503,Country WA,Regional,False,False,After-hours,113.2,110.2,2.7,88.0,28.6
+IM-02,2024-25,2025,PHN,PHN503,Country WA,Regional,False,False,After-hours,109.3,113.2,-3.4,88.0,24.2
+IM-02,2017-18,2018,PHN,PHN503,Country WA,Regional,False,False,All-hours,200.9,,,200.9,0.0
+IM-02,2018-19,2019,PHN,PHN503,Country WA,Regional,False,False,All-hours,270.2,200.9,34.5,200.9,34.5
+IM-02,2019-20,2020,PHN,PHN503,Country WA,Regional,False,False,All-hours,273.9,270.2,1.4,200.9,36.3
+IM-02,2020-21,2021,PHN,PHN503,Country WA,Regional,False,False,All-hours,291.7,273.9,6.5,200.9,45.2
+IM-02,2021-22,2022,PHN,PHN503,Country WA,Regional,False,False,All-hours,273.3,291.7,-6.3,200.9,36.0
+IM-02,2022-23,2023,PHN,PHN503,Country WA,Regional,False,False,All-hours,268.8,273.3,-1.6,200.9,33.8
+IM-02,2023-24,2024,PHN,PHN503,Country WA,Regional,False,False,All-hours,272.8,268.8,1.5,200.9,35.8
+IM-02,2024-25,2025,PHN,PHN503,Country WA,Regional,False,False,All-hours,260.4,272.8,-4.5,200.9,29.6
+IM-02,2017-18,2018,PHN,PHN503,Country WA,Regional,False,False,In-hours,112.8,,,112.8,0.0
+IM-02,2018-19,2019,PHN,PHN503,Country WA,Regional,False,False,In-hours,156.9,112.8,39.1,112.8,39.1
+IM-02,2019-20,2020,PHN,PHN503,Country WA,Regional,False,False,In-hours,163.3,156.9,4.1,112.8,44.8
+IM-02,2020-21,2021,PHN,PHN503,Country WA,Regional,False,False,In-hours,177.2,163.3,8.5,112.8,57.1
+IM-02,2021-22,2022,PHN,PHN503,Country WA,Regional,False,False,In-hours,161.9,177.2,-8.6,112.8,43.5
+IM-02,2022-23,2023,PHN,PHN503,Country WA,Regional,False,False,In-hours,158.6,161.9,-2.0,112.8,40.6
+IM-02,2023-24,2024,PHN,PHN503,Country WA,Regional,False,False,In-hours,159.6,158.6,0.6,112.8,41.5
+IM-02,2024-25,2025,PHN,PHN503,Country WA,Regional,False,False,In-hours,151.1,159.6,-5.3,112.8,34.0
+IM-02,2017-18,2018,PHN,PHN601,Tasmania,Regional,False,False,After-hours,56.9,,,56.9,0.0
+IM-02,2018-19,2019,PHN,PHN601,Tasmania,Regional,False,False,After-hours,56.3,56.9,-1.1,56.9,-1.1
+IM-02,2019-20,2020,PHN,PHN601,Tasmania,Regional,False,False,After-hours,47.6,56.3,-15.5,56.9,-16.3
+IM-02,2020-21,2021,PHN,PHN601,Tasmania,Regional,False,False,After-hours,50.7,47.6,6.5,56.9,-10.9
+IM-02,2021-22,2022,PHN,PHN601,Tasmania,Regional,False,False,After-hours,48.1,50.7,-5.1,56.9,-15.5
+IM-02,2022-23,2023,PHN,PHN601,Tasmania,Regional,False,False,After-hours,45.6,48.1,-5.2,56.9,-19.9
+IM-02,2023-24,2024,PHN,PHN601,Tasmania,Regional,False,False,After-hours,45.1,45.6,-1.1,56.9,-20.7
+IM-02,2024-25,2025,PHN,PHN601,Tasmania,Regional,False,False,After-hours,43.2,45.1,-4.2,56.9,-24.1
+IM-02,2017-18,2018,PHN,PHN601,Tasmania,Regional,False,False,All-hours,125.0,,,125.0,0.0
+IM-02,2018-19,2019,PHN,PHN601,Tasmania,Regional,False,False,All-hours,124.6,125.0,-0.3,125.0,-0.3
+IM-02,2019-20,2020,PHN,PHN601,Tasmania,Regional,False,False,All-hours,108.2,124.6,-13.2,125.0,-13.4
+IM-02,2020-21,2021,PHN,PHN601,Tasmania,Regional,False,False,All-hours,119.9,108.2,10.8,125.0,-4.1
+IM-02,2021-22,2022,PHN,PHN601,Tasmania,Regional,False,False,All-hours,110.6,119.9,-7.8,125.0,-11.5
+IM-02,2022-23,2023,PHN,PHN601,Tasmania,Regional,False,False,All-hours,103.4,110.6,-6.5,125.0,-17.3
+IM-02,2023-24,2024,PHN,PHN601,Tasmania,Regional,False,False,All-hours,102.1,103.4,-1.3,125.0,-18.3
+IM-02,2024-25,2025,PHN,PHN601,Tasmania,Regional,False,False,All-hours,97.0,102.1,-5.0,125.0,-22.4
+IM-02,2017-18,2018,PHN,PHN601,Tasmania,Regional,False,False,In-hours,68.1,,,68.1,0.0
+IM-02,2018-19,2019,PHN,PHN601,Tasmania,Regional,False,False,In-hours,68.3,68.1,0.3,68.1,0.3
+IM-02,2019-20,2020,PHN,PHN601,Tasmania,Regional,False,False,In-hours,60.6,68.3,-11.3,68.1,-11.0
+IM-02,2020-21,2021,PHN,PHN601,Tasmania,Regional,False,False,In-hours,69.2,60.6,14.2,68.1,1.6
+IM-02,2021-22,2022,PHN,PHN601,Tasmania,Regional,False,False,In-hours,62.5,69.2,-9.7,68.1,-8.2
+IM-02,2022-23,2023,PHN,PHN601,Tasmania,Regional,False,False,In-hours,57.8,62.5,-7.5,68.1,-15.1
+IM-02,2023-24,2024,PHN,PHN601,Tasmania,Regional,False,False,In-hours,57.0,57.8,-1.4,68.1,-16.3
+IM-02,2024-25,2025,PHN,PHN601,Tasmania,Regional,False,False,In-hours,53.8,57.0,-5.6,68.1,-21.0
+IM-02,2017-18,2018,PHN,PHN701,Northern Territory,Regional,False,False,After-hours,95.0,,,95.0,0.0
+IM-02,2018-19,2019,PHN,PHN701,Northern Territory,Regional,False,False,After-hours,103.6,95.0,9.1,95.0,9.1
+IM-02,2019-20,2020,PHN,PHN701,Northern Territory,Regional,False,False,After-hours,98.3,103.6,-5.1,95.0,3.5
+IM-02,2020-21,2021,PHN,PHN701,Northern Territory,Regional,False,False,After-hours,102.9,98.3,4.7,95.0,8.3
+IM-02,2021-22,2022,PHN,PHN701,Northern Territory,Regional,False,False,After-hours,105.0,102.9,2.0,95.0,10.5
+IM-02,2022-23,2023,PHN,PHN701,Northern Territory,Regional,False,False,After-hours,113.6,105.0,8.2,95.0,19.6
+IM-02,2023-24,2024,PHN,PHN701,Northern Territory,Regional,False,False,After-hours,112.9,113.6,-0.6,95.0,18.8
+IM-02,2024-25,2025,PHN,PHN701,Northern Territory,Regional,False,False,After-hours,109.4,112.9,-3.1,95.0,15.2
+IM-02,2017-18,2018,PHN,PHN701,Northern Territory,Regional,False,False,All-hours,224.2,,,224.2,0.0
+IM-02,2018-19,2019,PHN,PHN701,Northern Territory,Regional,False,False,All-hours,241.7,224.2,7.8,224.2,7.8
+IM-02,2019-20,2020,PHN,PHN701,Northern Territory,Regional,False,False,All-hours,236.0,241.7,-2.4,224.2,5.3
+IM-02,2020-21,2021,PHN,PHN701,Northern Territory,Regional,False,False,All-hours,256.4,236.0,8.6,224.2,14.4
+IM-02,2021-22,2022,PHN,PHN701,Northern Territory,Regional,False,False,All-hours,253.3,256.4,-1.2,224.2,13.0
+IM-02,2022-23,2023,PHN,PHN701,Northern Territory,Regional,False,False,All-hours,266.8,253.3,5.3,224.2,19.0
+IM-02,2023-24,2024,PHN,PHN701,Northern Territory,Regional,False,False,All-hours,266.2,266.8,-0.2,224.2,18.7
+IM-02,2024-25,2025,PHN,PHN701,Northern Territory,Regional,False,False,All-hours,255.0,266.2,-4.2,224.2,13.7
+IM-02,2017-18,2018,PHN,PHN701,Northern Territory,Regional,False,False,In-hours,129.2,,,129.2,0.0
+IM-02,2018-19,2019,PHN,PHN701,Northern Territory,Regional,False,False,In-hours,138.1,129.2,6.9,129.2,6.9
+IM-02,2019-20,2020,PHN,PHN701,Northern Territory,Regional,False,False,In-hours,137.7,138.1,-0.3,129.2,6.6
+IM-02,2020-21,2021,PHN,PHN701,Northern Territory,Regional,False,False,In-hours,153.5,137.7,11.5,129.2,18.8
+IM-02,2021-22,2022,PHN,PHN701,Northern Territory,Regional,False,False,In-hours,148.3,153.5,-3.4,129.2,14.8
+IM-02,2022-23,2023,PHN,PHN701,Northern Territory,Regional,False,False,In-hours,153.3,148.3,3.4,129.2,18.7
+IM-02,2023-24,2024,PHN,PHN701,Northern Territory,Regional,False,False,In-hours,153.3,153.3,0.0,129.2,18.7
+IM-02,2024-25,2025,PHN,PHN701,Northern Territory,Regional,False,False,In-hours,145.6,153.3,-5.0,129.2,12.7
+IM-02,2017-18,2018,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,After-hours,60.6,,,60.6,0.0
+IM-02,2018-19,2019,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,After-hours,56.5,60.6,-6.8,60.6,-6.8
+IM-02,2019-20,2020,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,After-hours,47.2,56.5,-16.5,60.6,-22.1
+IM-02,2020-21,2021,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,After-hours,53.7,47.2,13.8,60.6,-11.4
+IM-02,2021-22,2022,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,After-hours,51.9,53.7,-3.4,60.6,-14.4
+IM-02,2022-23,2023,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,After-hours,48.3,51.9,-6.9,60.6,-20.3
+IM-02,2023-24,2024,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,After-hours,47.5,48.3,-1.7,60.6,-21.6
+IM-02,2024-25,2025,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,After-hours,41.4,47.5,-12.8,60.6,-31.7
+IM-02,2017-18,2018,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,All-hours,126.4,,,126.4,0.0
+IM-02,2018-19,2019,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,All-hours,117.8,126.4,-6.8,126.4,-6.8
+IM-02,2019-20,2020,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,All-hours,101.2,117.8,-14.1,126.4,-19.9
+IM-02,2020-21,2021,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,All-hours,117.3,101.2,15.9,126.4,-7.2
+IM-02,2021-22,2022,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,All-hours,110.9,117.3,-5.5,126.4,-12.3
+IM-02,2022-23,2023,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,All-hours,101.9,110.9,-8.1,126.4,-19.4
+IM-02,2023-24,2024,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,All-hours,100.4,101.9,-1.5,126.4,-20.6
+IM-02,2024-25,2025,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,All-hours,90.2,100.4,-10.2,126.4,-28.6
+IM-02,2017-18,2018,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,In-hours,65.8,,,65.8,0.0
+IM-02,2018-19,2019,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,In-hours,61.3,65.8,-6.8,65.8,-6.8
+IM-02,2019-20,2020,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,In-hours,54.0,61.3,-11.9,65.8,-17.9
+IM-02,2020-21,2021,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,In-hours,63.6,54.0,17.8,65.8,-3.3
+IM-02,2021-22,2022,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,In-hours,59.0,63.6,-7.2,65.8,-10.3
+IM-02,2022-23,2023,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,In-hours,53.6,59.0,-9.2,65.8,-18.5
+IM-02,2023-24,2024,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,In-hours,52.9,53.6,-1.3,65.8,-19.6
+IM-02,2024-25,2025,PHN,PHN801,Australian Capital Territory,Metropolitan,False,False,In-hours,48.9,52.9,-7.6,65.8,-25.7

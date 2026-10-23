@@ -101,3 +101,15 @@ models:
     columns:
       - name: rate
         tests: [not_null]
+
+  - name: im01_age
+    description: >
+      REAL. Total PPH by age group (0-64, 65+) for Western Victoria, regional PHNs and Australia.
+      Crude rates per 100,000, because AIHW does not age-standardise within an age band.
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [geography_code, age_group, fy_end_year]
+    columns:
+      - name: crude_rate
+        tests: [not_null]

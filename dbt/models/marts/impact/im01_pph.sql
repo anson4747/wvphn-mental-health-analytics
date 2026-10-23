@@ -13,6 +13,7 @@ with rates as (
         measure_value                       as rate
     from {{ ref('stg_aihw__pph') }}
     where measure_type = 'rate_age_standardised'
+      and demographic_group = 'All persons'
       and pph_condition in ('Total PPH', 'Total acute', 'Total chronic', 'Total vaccine-preventable')
       and geography_level in ('National', 'PHN', 'PHN group')
 )

@@ -1,0 +1,71 @@
+fy_end_year,financial_year,sa3_code,sa3_name,subregion,rate,flag,baseline_rate,change_pct_since_baseline,wvphn_rate,national_rate,rank_highest_first
+2018,2017-18,20101,Ballarat,Ballarat Goldfields,2893.0,,2893.0,0.0,2833.0,2794.0,2
+2019,2018-19,20101,Ballarat,Ballarat Goldfields,3177.0,,2893.0,9.8,2913.0,2735.0,2
+2020,2019-20,20101,Ballarat,Ballarat Goldfields,3151.0,,2893.0,8.9,2728.0,2557.0,1
+2021,2020-21,20101,Ballarat,Ballarat Goldfields,2665.0,,2893.0,-7.9,2354.0,2371.0,2
+2022,2021-22,20101,Ballarat,Ballarat Goldfields,2451.0,,2893.0,-15.3,2231.0,2308.0,4
+2023,2022-23,20101,Ballarat,Ballarat Goldfields,2421.0,,2893.0,-16.3,2448.0,2503.0,6
+2024,2023-24,20101,Ballarat,Ballarat Goldfields,2437.0,,2893.0,-15.8,2512.0,2617.0,6
+2018,2017-18,20301,Barwon - West,Geelong Otway,2682.0,,2682.0,0.0,2833.0,2794.0,6
+2019,2018-19,20301,Barwon - West,Geelong Otway,2733.0,,2682.0,1.9,2913.0,2735.0,7
+2020,2019-20,20301,Barwon - West,Geelong Otway,2302.0,,2682.0,-14.2,2728.0,2557.0,8
+2021,2020-21,20301,Barwon - West,Geelong Otway,1755.0,,2682.0,-34.6,2354.0,2371.0,10
+2022,2021-22,20301,Barwon - West,Geelong Otway,1945.0,,2682.0,-27.5,2231.0,2308.0,9
+2023,2022-23,20301,Barwon - West,Geelong Otway,2085.0,,2682.0,-22.3,2448.0,2503.0,9
+2024,2023-24,20301,Barwon - West,Geelong Otway,2407.0,,2682.0,-10.3,2512.0,2617.0,7
+2018,2017-18,21703,Colac - Corangamite,Great South Coast,2774.0,,2774.0,0.0,2833.0,2794.0,5
+2019,2018-19,21703,Colac - Corangamite,Great South Coast,2998.0,,2774.0,8.1,2913.0,2735.0,5
+2020,2019-20,21703,Colac - Corangamite,Great South Coast,2831.0,,2774.0,2.1,2728.0,2557.0,4
+2021,2020-21,21703,Colac - Corangamite,Great South Coast,2635.0,,2774.0,-5.0,2354.0,2371.0,3
+2022,2021-22,21703,Colac - Corangamite,Great South Coast,2500.0,,2774.0,-9.9,2231.0,2308.0,3
+2023,2022-23,21703,Colac - Corangamite,Great South Coast,2721.0,,2774.0,-1.9,2448.0,2503.0,1
+2024,2023-24,21703,Colac - Corangamite,Great South Coast,2884.0,,2774.0,4.0,2512.0,2617.0,2
+2018,2017-18,20102,Creswick - Daylesford - Ballan,Ballarat Goldfields,2680.0,,2680.0,0.0,2833.0,2794.0,8
+2019,2018-19,20102,Creswick - Daylesford - Ballan,Ballarat Goldfields,2709.0,,2680.0,1.1,2913.0,2735.0,8
+2020,2019-20,20102,Creswick - Daylesford - Ballan,Ballarat Goldfields,2577.0,,2680.0,-3.8,2728.0,2557.0,7
+2021,2020-21,20102,Creswick - Daylesford - Ballan,Ballarat Goldfields,2196.0,,2680.0,-18.1,2354.0,2371.0,7
+2022,2021-22,20102,Creswick - Daylesford - Ballan,Ballarat Goldfields,1948.0,,2680.0,-27.3,2231.0,2308.0,8
+2023,2022-23,20102,Creswick - Daylesford - Ballan,Ballarat Goldfields,2212.0,,2680.0,-17.5,2448.0,2503.0,8
+2024,2023-24,20102,Creswick - Daylesford - Ballan,Ballarat Goldfields,1978.0,,2680.0,-26.2,2512.0,2617.0,10
+2018,2017-18,20302,Geelong,Geelong Otway,3222.0,,3222.0,0.0,2833.0,2794.0,1
+2019,2018-19,20302,Geelong,Geelong Otway,3133.0,,3222.0,-2.8,2913.0,2735.0,3
+2020,2019-20,20302,Geelong,Geelong Otway,2916.0,,3222.0,-9.5,2728.0,2557.0,3
+2021,2020-21,20302,Geelong,Geelong Otway,2384.0,,3222.0,-26.0,2354.0,2371.0,6
+2022,2021-22,20302,Geelong,Geelong Otway,2187.0,,3222.0,-32.1,2231.0,2308.0,6
+2023,2022-23,20302,Geelong,Geelong Otway,2649.0,,3222.0,-17.8,2448.0,2503.0,3
+2024,2023-24,20302,Geelong,Geelong Otway,2735.0,,3222.0,-15.1,2512.0,2617.0,3
+2018,2017-18,21701,Glenelg - Southern Grampians,Great South Coast,2643.0,,2643.0,0.0,2833.0,2794.0,9
+2019,2018-19,21701,Glenelg - Southern Grampians,Great South Coast,2524.0,,2643.0,-4.5,2913.0,2735.0,9
+2020,2019-20,21701,Glenelg - Southern Grampians,Great South Coast,2290.0,,2643.0,-13.4,2728.0,2557.0,9
+2021,2020-21,21701,Glenelg - Southern Grampians,Great South Coast,2051.0,,2643.0,-22.4,2354.0,2371.0,8
+2022,2021-22,21701,Glenelg - Southern Grampians,Great South Coast,2092.0,,2643.0,-20.8,2231.0,2308.0,7
+2023,2022-23,21701,Glenelg - Southern Grampians,Great South Coast,2440.0,,2643.0,-7.7,2448.0,2503.0,5
+2024,2023-24,21701,Glenelg - Southern Grampians,Great South Coast,2443.0,,2643.0,-7.6,2512.0,2617.0,5
+2018,2017-18,21501,Grampians,Wimmera Grampians,2792.0,,2792.0,0.0,2833.0,2794.0,4
+2019,2018-19,21501,Grampians,Wimmera Grampians,3104.0,,2792.0,11.2,2913.0,2735.0,4
+2020,2019-20,21501,Grampians,Wimmera Grampians,2655.0,,2792.0,-4.9,2728.0,2557.0,6
+2021,2020-21,21501,Grampians,Wimmera Grampians,2602.0,,2792.0,-6.8,2354.0,2371.0,4
+2022,2021-22,21501,Grampians,Wimmera Grampians,2708.0,,2792.0,-3.0,2231.0,2308.0,1
+2023,2022-23,21501,Grampians,Wimmera Grampians,2650.0,,2792.0,-5.1,2448.0,2503.0,2
+2024,2023-24,21501,Grampians,Wimmera Grampians,2920.0,,2792.0,4.6,2512.0,2617.0,1
+2018,2017-18,20103,Maryborough - Pyrenees,Ballarat Goldfields,2872.0,,2872.0,0.0,2833.0,2794.0,3
+2019,2018-19,20103,Maryborough - Pyrenees,Ballarat Goldfields,3232.0,,2872.0,12.5,2913.0,2735.0,1
+2020,2019-20,20103,Maryborough - Pyrenees,Ballarat Goldfields,2967.0,,2872.0,3.3,2728.0,2557.0,2
+2021,2020-21,20103,Maryborough - Pyrenees,Ballarat Goldfields,2906.0,,2872.0,1.2,2354.0,2371.0,1
+2022,2021-22,20103,Maryborough - Pyrenees,Ballarat Goldfields,2305.0,,2872.0,-19.7,2231.0,2308.0,5
+2023,2022-23,20103,Maryborough - Pyrenees,Ballarat Goldfields,2405.0,,2872.0,-16.3,2448.0,2503.0,7
+2024,2023-24,20103,Maryborough - Pyrenees,Ballarat Goldfields,2335.0,,2872.0,-18.7,2512.0,2617.0,8
+2018,2017-18,20303,Surf Coast - Bellarine Peninsula,Geelong Otway,2212.0,,2212.0,0.0,2833.0,2794.0,10
+2019,2018-19,20303,Surf Coast - Bellarine Peninsula,Geelong Otway,2204.0,,2212.0,-0.4,2913.0,2735.0,10
+2020,2019-20,20303,Surf Coast - Bellarine Peninsula,Geelong Otway,2124.0,,2212.0,-4.0,2728.0,2557.0,10
+2021,2020-21,20303,Surf Coast - Bellarine Peninsula,Geelong Otway,1806.0,,2212.0,-18.4,2354.0,2371.0,9
+2022,2021-22,20303,Surf Coast - Bellarine Peninsula,Geelong Otway,1736.0,,2212.0,-21.5,2231.0,2308.0,10
+2023,2022-23,20303,Surf Coast - Bellarine Peninsula,Geelong Otway,1976.0,,2212.0,-10.7,2448.0,2503.0,10
+2024,2023-24,20303,Surf Coast - Bellarine Peninsula,Geelong Otway,1991.0,,2212.0,-10.0,2512.0,2617.0,9
+2018,2017-18,21704,Warrnambool,Great South Coast,2681.0,,2681.0,0.0,2833.0,2794.0,7
+2019,2018-19,21704,Warrnambool,Great South Coast,2759.0,,2681.0,2.9,2913.0,2735.0,6
+2020,2019-20,21704,Warrnambool,Great South Coast,2677.0,,2681.0,-0.1,2728.0,2557.0,5
+2021,2020-21,21704,Warrnambool,Great South Coast,2416.0,,2681.0,-9.9,2354.0,2371.0,5
+2022,2021-22,21704,Warrnambool,Great South Coast,2513.0,,2681.0,-6.3,2231.0,2308.0,2
+2023,2022-23,21704,Warrnambool,Great South Coast,2556.0,,2681.0,-4.7,2448.0,2503.0,4
+2024,2023-24,21704,Warrnambool,Great South Coast,2618.0,,2681.0,-2.3,2512.0,2617.0,4

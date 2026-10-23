@@ -2,8 +2,8 @@
 
 The full CSV (aihw-hpf-76, about 250 MB and 868,000 rows) is too large for the repository.
 This script keeps national rows, every PHN (and the metropolitan and regional PHN groups) for
-benchmarking, and the ten SA3s that make up Western Victoria PHN, for all persons and for the
-measures used by indicator IM-01. It writes a UTF-8 extract of well under 1 MB.
+benchmarking, and the ten SA3s that make up Western Victoria PHN, for all persons (plus the
+0-64 and 65+ split for PPH totals) and for the measures used by indicator IM-01. It writes a UTF-8 extract of about 7 MB.
 
 Source: AIHW, Potentially preventable hospitalisations in Australia by small geographic areas,
         2017-18 to 2023-24 (HPF-76). Download the CSV zip from the report's data section and
@@ -69,10 +69,11 @@ def main():
         & df.StateTerritory.fillna("").str.contains("Vic")
         & df.GeographicAreaName.isin(WVPHN_SA3S)
     )
-    in_scope_measure = (
-        df.MeasureName.isin(MEASURES)
-        & (df.DemographicGroup == "All persons")
-    )
+    # All persons for every condition; the 0-64 and 65+ split (a framework disaggregation)
+    # for the PPH totals only, to keep the extract small
+    all_persons = df.DemographicGroup == "All persons"
+    age_split = df.DemographicGroup.isin(["0\u201364", "65+"]) & df.PPHCondition.str.startswith("Total")
+    in_scope_measure = df.MeasureName.isin(MEASURES) & (all_persons | age_split)
     extract = df[in_scope_geography & in_scope_measure].drop(columns=["Code", "DataSource", "Name"])
     extract = extract.apply(lambda col: col.str.replace("–", "-", regex=False))
 

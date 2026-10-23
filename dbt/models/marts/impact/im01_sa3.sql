@@ -7,6 +7,7 @@ with sa3 as (
     join {{ ref('stg_pmhc__sa3_subregion_map') }} m on m.sa3_name = p.geography_name
     where p.geography_level = 'SA3'
       and p.measure_type = 'rate_age_standardised'
+      and p.demographic_group = 'All persons'
       and p.pph_condition = 'Total PPH'
 ),
 

@@ -1,0 +1,33 @@
+indicator_code,financial_year,geography_code,geography_name,is_wvphn,is_victorian_regional,rate,change_pct_since_baseline,rank_lowest_first,peer_count,peer_median,regional_group_rate,national_rate
+IM-01,2023-24,PHN108,Hunter New England and Central Coast,False,False,2177.0,-17.1,1,16,2979.5,2929.0,2617.0
+IM-01,2023-24,PHN106,South Eastern NSW,False,False,2336.0,-2.1,2,16,2979.5,2929.0,2617.0
+IM-01,2023-24,PHN601,Tasmania,False,False,2429.0,-4.4,3,16,2979.5,2929.0,2617.0
+IM-01,2023-24,PHN109,North Coast,False,False,2493.0,-12.3,4,16,2979.5,2929.0,2617.0
+IM-01,2023-24,PHN206,Western Victoria,True,True,2512.0,-11.3,5,16,2979.5,2929.0,2617.0
+IM-01,2023-24,PHN402,Country SA,False,False,2528.0,-13.7,6,16,2979.5,2929.0,2617.0
+IM-01,2023-24,PHN107,Western NSW,False,False,2846.0,-3.9,7,16,2979.5,2929.0,2617.0
+IM-01,2023-24,PHN205,Murray,False,True,2937.0,-2.8,8,16,2979.5,2929.0,2617.0
+IM-01,2023-24,PHN110,Murrumbidgee,False,False,3022.0,-12.6,9,16,2979.5,2929.0,2617.0
+IM-01,2023-24,PHN503,Country WA,False,False,3097.0,-4.0,10,16,2979.5,2929.0,2617.0
+IM-01,2023-24,PHN204,Gippsland,False,True,3343.0,11.4,11,16,2979.5,2929.0,2617.0
+IM-01,2023-24,PHN307,Northern Queensland,False,False,3474.0,-4.8,12,16,2979.5,2929.0,2617.0
+IM-01,2023-24,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",False,False,3550.0,-3.2,13,16,2979.5,2929.0,2617.0
+IM-01,2023-24,PHN304,Darling Downs and West Moreton,False,False,3582.0,-3.8,14,16,2979.5,2929.0,2617.0
+IM-01,2023-24,PHN305,Western Queensland,False,False,5380.0,-6.0,15,16,2979.5,2929.0,2617.0
+IM-01,2023-24,PHN701,Northern Territory,False,False,5913.0,2.6,16,16,2979.5,2929.0,2617.0
+IM-02,2024-25,PHN304,Darling Downs and West Moreton,False,False,36.4,-35.7,1,16,163.25,155.7,104.7
+IM-02,2024-25,PHN307,Northern Queensland,False,False,68.4,-3.8,2,16,163.25,155.7,104.7
+IM-02,2024-25,PHN206,Western Victoria,True,True,83.6,-23.7,3,16,163.25,155.7,104.7
+IM-02,2024-25,PHN601,Tasmania,False,False,97.0,-22.4,4,16,163.25,155.7,104.7
+IM-02,2024-25,PHN306,"Central Queensland, Wide Bay, Sunshine Coast",False,False,111.2,-11.2,5,16,163.25,155.7,104.7
+IM-02,2024-25,PHN205,Murray,False,True,150.8,-17.0,6,16,163.25,155.7,104.7
+IM-02,2024-25,PHN204,Gippsland,False,True,153.6,-21.8,7,16,163.25,155.7,104.7
+IM-02,2024-25,PHN402,Country SA,False,False,160.9,40.9,8,16,163.25,155.7,104.7
+IM-02,2024-25,PHN106,South Eastern NSW,False,False,165.6,-12.8,9,16,163.25,155.7,104.7
+IM-02,2024-25,PHN108,Hunter New England and Central Coast,False,False,170.0,-17.3,10,16,163.25,155.7,104.7
+IM-02,2024-25,PHN701,Northern Territory,False,False,255.0,13.7,11,16,163.25,155.7,104.7
+IM-02,2024-25,PHN503,Country WA,False,False,260.4,29.6,12,16,163.25,155.7,104.7
+IM-02,2024-25,PHN305,Western Queensland,False,False,263.7,25.5,13,16,163.25,155.7,104.7
+IM-02,2024-25,PHN109,North Coast,False,False,277.7,-0.6,14,16,163.25,155.7,104.7
+IM-02,2024-25,PHN110,Murrumbidgee,False,False,289.2,18.1,15,16,163.25,155.7,104.7
+IM-02,2024-25,PHN107,Western NSW,False,False,345.9,1.8,16,16,163.25,155.7,104.7

@@ -1,0 +1,21 @@
+indicator_code,criterion_level,financial_year,fy_end_year,wvphn_value,national_value,wvphn_change_pct_year_on_year,national_change_pct_year_on_year,wvphn_change_pct_since_baseline,national_change_pct_since_baseline,is_met_year_on_year,is_met_since_baseline,pack_status,is_latest_year
+IM-01,National,2018-19,2019,,2735.0,,-2.1,,-2.1,True,,Met,False
+IM-01,National,2019-20,2020,,2557.0,,-6.5,,-8.5,True,,Met,False
+IM-01,National,2020-21,2021,,2371.0,,-7.3,,-15.1,True,,Met,False
+IM-01,National,2021-22,2022,,2308.0,,-2.7,,-17.4,True,,Met,False
+IM-01,National,2022-23,2023,,2503.0,,8.4,,-10.4,False,,Not met,False
+IM-01,National,2023-24,2024,,2617.0,,4.6,,-6.3,False,,Not met,True
+IM-02,National,2018-19,2019,,120.0,,0.6,,0.6,False,,Not met,False
+IM-02,National,2019-20,2020,,115.7,,-3.6,,-3.0,True,,Met,False
+IM-02,National,2020-21,2021,,127.8,,10.5,,7.1,False,,Not met,False
+IM-02,National,2021-22,2022,,124.3,,-2.7,,4.2,True,,Met,False
+IM-02,National,2022-23,2023,,114.3,,-8.0,,-4.2,True,,Met,False
+IM-02,National,2023-24,2024,,110.1,,-3.7,,-7.7,True,,Met,False
+IM-02,National,2024-25,2025,,104.7,,-4.9,,-12.2,True,,Met,True
+IM-02,PHN,2018-19,2019,105.9,120.0,-3.4,0.6,-3.4,0.6,True,True,Met,False
+IM-02,PHN,2019-20,2020,93.2,115.7,-12.0,-3.6,-15.0,-3.0,True,True,Met,False
+IM-02,PHN,2020-21,2021,93.2,127.8,0.0,10.5,-15.0,7.1,True,True,Met,False
+IM-02,PHN,2021-22,2022,87.1,124.3,-6.5,-2.7,-20.5,4.2,True,True,Met,False
+IM-02,PHN,2022-23,2023,81.2,114.3,-6.8,-8.0,-25.9,-4.2,False,True,Watch,False
+IM-02,PHN,2023-24,2024,82.1,110.1,1.1,-3.7,-25.1,-7.7,False,True,Watch,False
+IM-02,PHN,2024-25,2025,83.6,104.7,1.8,-4.9,-23.7,-12.2,False,True,Watch,True

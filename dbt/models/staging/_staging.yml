@@ -124,7 +124,7 @@ models:
     tests:
       - unique_combination_of_columns:
           arguments:
-            columns: [fy_end_year, geography_code, pph_group, pph_condition, measure_type]
+            columns: [fy_end_year, geography_code, demographic_group, pph_group, pph_condition, measure_type]
     columns:
       - name: measure_type
         tests:
@@ -137,3 +137,8 @@ models:
           - accepted_values:
               arguments:
                 values: ['National', 'PHN', 'PHN group', 'SA3']
+      - name: demographic_group
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['All persons', '0-64', '65+']

@@ -73,6 +73,7 @@ Measurement and Reporting Framework 2025 that use AIHW data, in `dbt/models/mart
 * `peer_comparison`, `im01_conditions`, `im01_sa3` and `im02_sa3_hotspots` give the peer, condition
   and SA3 views; `seeds/framework_indicator_spec.csv` holds the indicator specification cards.
 * A reconciliation test reproduces 19 published AIHW figures within 0.05 on every build.
+* `scripts/export_powerbi.py` writes every mart the report uses to `powerbi/data`; CI fails if the committed files drift from the pipeline.
 
 ## Highlights
 
