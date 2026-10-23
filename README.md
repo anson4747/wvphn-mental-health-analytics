@@ -59,6 +59,21 @@ lower urgency care, and what to do next.
 > fixed afterwards (see [Data quality](#data-quality)), so synthetic figures in the dbt charts further
 > down differ slightly. The real AIHW figures are identical in both.
 
+## Impact Indicator Pack (PHN Framework 2025, real AIHW data)
+
+Western Victoria PHN reported against the two impact indicators in the PHN Program Performance
+Measurement and Reporting Framework 2025 that use AIHW data, in `dbt/models/marts/impact`:
+
+| Indicator | Latest | Western Victoria | National | Regional PHNs (rank, lowest first) |
+|---|---|---|---|---|
+| IM-01 Potentially preventable hospitalisations per 100,000 | 2023-24 | 2,512 | 2,617 | 5th of 16 |
+| IM-02 Lower urgency ED presentations per 1,000 | 2024-25 | 83.6 | 104.7 | 3rd of 16 |
+
+* `criteria_check` tests each framework criterion every year (Met, Watch, Not met).
+* `peer_comparison`, `im01_conditions`, `im01_sa3` and `im02_sa3_hotspots` give the peer, condition
+  and SA3 views; `seeds/framework_indicator_spec.csv` holds the indicator specification cards.
+* A reconciliation test reproduces 19 published AIHW figures within 0.05 on every build.
+
 ## Highlights
 
 * **Seeded, reproducible synthetic data:** a generator with behaviour profiles per provider, re-run in CI and diffed against the committed files

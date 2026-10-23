@@ -118,3 +118,22 @@ models:
       - unique_combination_of_columns:
           arguments:
             columns: [fy_end_year, geography_level, geography_code, triage_category, hour_band, measure_name]
+
+  - name: stg_aihw__pph
+    description: AIHW HPF-76 potentially preventable hospitalisations, typed and deduplicated. REAL.
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [fy_end_year, geography_code, pph_group, pph_condition, measure_type]
+    columns:
+      - name: measure_type
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['rate_age_standardised', 'rate_crude', 'count', 'population']
+      - name: geography_level
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['National', 'PHN', 'PHN group', 'SA3']

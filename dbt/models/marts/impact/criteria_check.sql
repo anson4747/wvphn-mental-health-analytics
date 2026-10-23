@@ -2,6 +2,8 @@
 -- IM-02 PHN criterion: the PHN's reduction matches or exceeds the national reduction.
 --   Tested year on year (the comparison period is an assumption, see framework_indicator_spec).
 --   The change since 2017-18 is shown alongside so a committee sees both readings.
+-- IM-01 has no PHN criterion (Part B: assessed at national level). The national criterion,
+--   at least a 1% reduction in the national rate of total PPH, is tested year on year.
 -- Pack status: Met = year on year criterion met; Watch = not met year on year but the PHN's
 --   reduction since baseline still exceeds the national one; Not met = neither.
 with im02 as (
@@ -38,10 +40,21 @@ im02_national as (
     where geography_code = '001NAT' and change_pct_year_on_year is not null
 ),
 
+im01_national as (
+    select
+        'IM-01', 'National', financial_year, fy_end_year, null, rate,
+        null, change_pct_year_on_year, null, change_pct_since_baseline,
+        change_pct_year_on_year <= -1.0, null
+    from {{ ref('im01_pph') }}
+    where geography_code = '001NAT' and pph_category = 'PPH' and change_pct_year_on_year is not null
+),
+
 combined as (
     select * from im02_check
     union all
     select * from im02_national
+    union all
+    select * from im01_national
 )
 
 select
@@ -51,5 +64,5 @@ select
         when is_met_since_baseline then 'Watch'
         else 'Not met'
     end as pack_status,
-    fy_end_year = max(fy_end_year) over (partition by indicator_code) as is_latest_year
+    fy_end_year = max(fy_end_year) over (partition by indicator_code, criterion_level) as is_latest_year
 from combined

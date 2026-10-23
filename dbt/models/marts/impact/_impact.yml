@@ -52,11 +52,52 @@ models:
     description: >
       REAL. Latest year rank of Western Victoria among AIHW's regional PHNs (an approximation of
       the framework's peer groups). Rank 1 is the lowest rate.
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [indicator_code, geography_code]
     columns:
-      - name: geography_code
-        tests: [unique, not_null]
       - name: peer_count
         tests:
           - accepted_values:
               arguments:
                 values: [16]
+
+  - name: im01_pph
+    description: >
+      REAL. IM-01 potentially preventable hospitalisations, age-standardised per 100,000, by year,
+      geography and PPH category, with year on year change and change since 2017-18.
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [geography_code, fy_end_year, pph_category]
+    columns:
+      - name: pph_category
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['PPH', 'acute', 'chronic', 'vaccine-preventable']
+      - name: peer_group
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['National', 'Metropolitan', 'Regional']
+
+  - name: im01_conditions
+    description: >
+      REAL. Latest year PPH rate by condition for Western Victoria, the regional PHN group and
+      Australia. Null rates are values AIHW did not publish (n.p.) or nil.
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [pph_group, pph_condition]
+
+  - name: im01_sa3
+    description: REAL. Total PPH by Western Victoria SA3 and year with change since 2017-18.
+    tests:
+      - unique_combination_of_columns:
+          arguments:
+            columns: [sa3_code, fy_end_year]
+    columns:
+      - name: rate
+        tests: [not_null]

@@ -29,8 +29,19 @@
 | 5 | AIHW source | `003MET` and `003REG` (metropolitan and regional PHN groups) listed as PHNs | Profiling: 33 "PHNs" against 31 real | Classified as `PHN group`; ranking test expects 31 |
 | 6 | AIHW source | Murray PHN appears under both `Vic` and `Vic/NSW` | Profiling | Keep one row per measure |
 | 7 | AIHW source | 130 MB file exceeds GitHub's 100 MB limit | Repository constraint | `scripts/extract_aihw.py` keeps the 2,256 rows used (0.5 MB) |
+| 8 | AIHW PPH source | 250 MB, 868,000 row file | Repository constraint | `scripts/extract_aihw_pph.py` keeps 28,840 rows (national, PHNs, WVPHN SA3s, all persons, four measures) |
+| 9 | AIHW PPH source | National rows repeated across worksheets Table1 to Table4 | Profiling | Deduplicate in `stg_aihw__pph`; profiling confirmed the copies are identical |
+| 10 | AIHW PPH source | Values flagged n.p. (not published) and `-` (nil) for small conditions | Profiling: 1,821 flagged rows | Kept as null with the flag; never imputed |
+| 11 | Framework vs source | Framework 2025 lists 18 PPH conditions; AIHW HPF-76 reports 22 | Reading Part B against the release | Noted on the IM-01 specification card |
 
 ## Known limitations
+
+* Framework peer groups are not published, so the Impact Indicator Pack uses AIHW's regional PHN
+  classification (16 PHNs) as an approximation.
+* The IM-02 PHN criterion is tested year on year; the comparison period should be confirmed
+  against the framework's Part B specification. The change since 2017-18 is reported alongside.
+* Service locations (Medicare Urgent Care Clinics, commissioned after hours services) are a
+  hypothesis layer: being in the same SA3 is not evidence of cause.
 
 * AIHW flags 9 of the 10 Western Victoria SA3s: results only include formal public EDs, which affects
   comparability for regional areas.

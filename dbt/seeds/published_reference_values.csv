@@ -1,4 +1,4 @@
-indicator_code,geography_code,fy_end_year,hour_band,published_value,source
+indicator_code,geography_code,fy_end_year,category,published_value,source
 IM-02,PHN206,2018,All-hours,109.6,AIHW PHC-23 Table1 Western Victoria 2017-18
 IM-02,PHN206,2024,All-hours,82.1,AIHW PHC-23 Table1 Western Victoria 2023-24
 IM-02,PHN206,2025,All-hours,83.6,AIHW PHC-23 Table1 Western Victoria 2024-25
@@ -7,3 +7,14 @@ IM-02,001NAT,2024,All-hours,110.1,AIHW PHC-23 Table1 National 2023-24
 IM-02,001NAT,2025,All-hours,104.7,AIHW PHC-23 Table1 National 2024-25
 IM-02,PHN206,2018,After-hours,54.3,AIHW PHC-23 Table1 Western Victoria 2017-18 after hours
 IM-02,PHN206,2025,After-hours,38.3,AIHW PHC-23 Table1 Western Victoria 2024-25 after hours
+IM-01,PHN206,2018,PPH,2833,AIHW HPF-76 Total PPH age-standardised 2017-18
+IM-01,PHN206,2023,PPH,2448,AIHW HPF-76 Total PPH age-standardised 2022-23
+IM-01,PHN206,2024,PPH,2512,AIHW HPF-76 Total PPH age-standardised 2023-24
+IM-01,001NAT,2018,PPH,2794,AIHW HPF-76 Total PPH age-standardised 2017-18
+IM-01,001NAT,2024,PPH,2617,AIHW HPF-76 Total PPH age-standardised 2023-24
+IM-01,003REG,2024,PPH,2929,AIHW HPF-76 Total PPH age-standardised 2023-24
+IM-01,PHN204,2024,PPH,3343,AIHW HPF-76 Total PPH age-standardised 2023-24
+IM-01,PHN205,2024,PPH,2937,AIHW HPF-76 Total PPH age-standardised 2023-24
+IM-01,PHN206,2024,acute,1222,AIHW HPF-76 Total acute age-standardised 2023-24
+IM-01,003REG,2024,acute,1507,AIHW HPF-76 Total acute age-standardised 2023-24
+IM-01,001NAT,2024,acute,1322,AIHW HPF-76 Total acute age-standardised 2023-24
