@@ -1,0 +1,9 @@
+indicator_code,geography_code,fy_end_year,hour_band,published_value,source
+IM-02,PHN206,2018,All-hours,109.6,AIHW PHC-23 Table1 Western Victoria 2017-18
+IM-02,PHN206,2024,All-hours,82.1,AIHW PHC-23 Table1 Western Victoria 2023-24
+IM-02,PHN206,2025,All-hours,83.6,AIHW PHC-23 Table1 Western Victoria 2024-25
+IM-02,001NAT,2018,All-hours,119.3,AIHW PHC-23 Table1 National 2017-18
+IM-02,001NAT,2024,All-hours,110.1,AIHW PHC-23 Table1 National 2023-24
+IM-02,001NAT,2025,All-hours,104.7,AIHW PHC-23 Table1 National 2024-25
+IM-02,PHN206,2018,After-hours,54.3,AIHW PHC-23 Table1 Western Victoria 2017-18 after hours
+IM-02,PHN206,2025,After-hours,38.3,AIHW PHC-23 Table1 Western Victoria 2024-25 after hours
