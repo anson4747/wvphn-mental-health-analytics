@@ -1,0 +1,23 @@
+version: 2
+
+seeds:
+  - name: service_locations
+    description: >
+      Medicare Urgent Care Clinics and WVPHN commissioned after hours services, from the WVPHN
+      Urgent and After Hours Care page (last modified 4 Sep 2026, checked 24 Oct 2026). SA3 is
+      assigned by the analyst from the town. Used as a hypothesis layer only.
+    columns:
+      - name: service_type
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Medicare Urgent Care Clinic', 'Commissioned after hours service']
+  - name: published_reference_values
+    description: Figures published by AIHW that the marts must reproduce (reconciliation test).
+  - name: framework_indicator_spec
+    description: >
+      Indicator specification cards from the PHN Program Performance Measurement and Reporting
+      Framework 2025 Part B, with the source dataset, criteria, comparison period used and caveats.
+    columns:
+      - name: indicator_code
+        tests: [unique, not_null]

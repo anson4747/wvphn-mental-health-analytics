@@ -32,3 +32,9 @@ sources:
     tables:
       - name: aihw_lower_urgency_ed_extract
         description: Long format, one row per geography, year, triage category, hour band and measure.
+      - name: aihw_pph_extract
+        description: >
+          REAL data. AIHW, Potentially preventable hospitalisations in Australia by small geographic
+          areas 2017-18 to 2023-24 (HPF-76). National, PHN and Western Victoria SA3 rows for all
+          persons (see scripts/extract_aihw_pph.py). Long format, one row per geography, year,
+          PPH group, condition and measure.

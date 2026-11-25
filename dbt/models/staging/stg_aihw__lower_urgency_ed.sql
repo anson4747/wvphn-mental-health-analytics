@@ -19,6 +19,7 @@ typed as (
         "GeographicCode"                               as geography_code,
         "GeographicAreaName"                           as geography_name,
         nullif("StateTerritory", '')                   as state,
+        "GeographicGroup"                              as geographic_group,
         "TriageCategory"                               as triage_category,
         coalesce(nullif("HourEDpresentation", ''), 'Not applicable') as hour_band,
         "MeasureName"                                  as measure_name,

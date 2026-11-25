@@ -6,6 +6,7 @@ profile: wvphn_analytics
 model-paths: ["models"]
 test-paths: ["tests"]
 macro-paths: ["macros"]
+seed-paths: ["seeds"]
 target-path: "target"
 clean-targets: ["target", "dbt_packages"]
 
@@ -17,6 +18,9 @@ vars:
   target_outcome_collection_rate: 0.70
   target_7day_followup_rate: 0.80
   target_median_wait_days: 14
+  # Impact Indicator Pack (PHN Program Performance Measurement and Reporting Framework 2025)
+  impact_baseline_fy: 2018          # first year in both AIHW releases (2017-18)
+  reconciliation_tolerance: 0.05    # published AIHW values are given to one decimal place
 
 models:
   wvphn_analytics:
@@ -29,3 +33,7 @@ models:
     marts:
       +materialized: table
       +schema: marts
+
+seeds:
+  wvphn_analytics:
+    +schema: reference
